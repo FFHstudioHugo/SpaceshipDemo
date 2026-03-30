@@ -45,7 +45,7 @@ public class VFXVolumeMixer : VolumeComponent
 
     static void UpdateStack(Transform trigger, LayerMask layerMask)
     {
-        VolumeManager.instance.Update(stack, trigger, layerMask);
+        if(VolumeManager.instance.isInitialized && VolumeManager.instance.stack.isValid) VolumeManager.instance.Update(VolumeManager.instance.stack, trigger, layerMask);
     }
 
     public static float GetFloatValueAt(int index, Transform trigger, LayerMask layerMask)
