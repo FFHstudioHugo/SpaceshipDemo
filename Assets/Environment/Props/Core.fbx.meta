@@ -1,665 +1,1979 @@
 fileFormatVersion: 2
 guid: 5e0d07b4c0bc7f34aba5a692547f7cc7
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Core_Cylinder
-    100004: Main
-    100006: Mesh (30)
-    100008: Mesh (32)
-    100010: Mesh (33)
-    100012: Mesh (35)
-    100014: Mesh (36)
-    100016: Mesh (37)
-    100018: Mesh (38)
-    100020: Mesh (40)
-    100022: Mesh (41)
-    100024: Mesh (44)
-    100026: Mesh (45)
-    100028: Mesh (46)
-    100030: Mesh (47)
-    100032: Mesh (48)
-    100034: Mesh (52)
-    100036: Mesh (53)
-    100038: Mesh (54)
-    100040: Mesh (55)
-    100042: Mesh (57)
-    100044: Mesh (58)
-    100046: Mesh (59)
-    100048: Mesh (60)
-    100050: Mesh (61)
-    100052: Mesh (62)
-    100054: Mesh (63)
-    100056: Mesh (64)
-    100058: Mesh (65)
-    100060: Mesh (66)
-    100062: Mesh (67)
-    100064: Mesh (68)
-    100066: Mesh (69)
-    100068: Mesh (71)
-    100070: Mesh (72)
-    100072: Mesh (73)
-    100074: Mesh (77)
-    100076: Mesh (77) (2)
-    100078: Mesh (78)
-    100080: Mesh (79)
-    100082: Mesh (80)
-    100084: Mesh (81)
-    100086: Mesh (82)
-    100088: Wall (2)
-    100090: Circle_Element
-    100092: Circle_Element (2)
-    100094: Core_Cylinder (2)
-    100096: Core_Element
-    100098: Core_Element (10)
-    100100: Core_Element (11)
-    100102: Core_Element (12)
-    100104: Core_Element (13)
-    100106: Core_Element (14)
-    100108: Core_Element (15)
-    100110: Core_Element (16)
-    100112: Core_Element (17)
-    100114: Core_Element (18)
-    100116: Core_Element (19)
-    100118: Core_Element (2)
-    100120: Core_Element (20)
-    100122: Core_Element (21)
-    100124: Core_Element (22)
-    100126: Core_Element (23)
-    100128: Core_Element (24)
-    100130: Core_Element (25)
-    100132: Core_Element (26)
-    100134: Core_Element (27)
-    100136: Core_Element (28)
-    100138: Core_Element (29)
-    100140: Core_Element (3)
-    100142: Core_Element (30)
-    100144: Core_Element (31)
-    100146: Core_Element (32)
-    100148: Core_Element (33)
-    100150: Core_Element (34)
-    100152: Core_Element (35)
-    100154: Core_Element (36)
-    100156: Core_Element (37)
-    100158: Core_Element (38)
-    100160: Core_Element (39)
-    100162: Core_Element (4)
-    100164: Core_Element (40)
-    100166: Core_Element (41)
-    100168: Core_Element (42)
-    100170: Core_Element (43)
-    100172: Core_Element (44)
-    100174: Core_Element (5)
-    100176: Core_Element (6)
-    100178: Core_Element (7)
-    100180: Core_Element (8)
-    100182: Core_Element (9)
-    100184: Core_Support
-    100186: Core_Support (2)
-    100188: Core_Support (3)
-    100190: Core_Support (4)
-    100192: Core_Support (5)
-    100194: Core_Support (6)
-    100196: Core_Support (7)
-    100198: Mesh
-    100200: Mesh (10)
-    100202: Mesh (11)
-    100204: Mesh (12)
-    100206: Mesh (13)
-    100208: Mesh (14)
-    100210: Mesh (15)
-    100212: Mesh (16)
-    100214: Mesh (17)
-    100216: Mesh (18)
-    100218: Mesh (2)
-    100220: Mesh (3)
-    100222: Mesh (4)
-    100224: Mesh (5)
-    100226: Mesh (6)
-    100228: Mesh (7)
-    100230: Mesh (77) (3)
-    100232: Mesh (77) (4)
-    100234: Mesh (8)
-    100236: Mesh (9)
-    100238: Wall
-    100240: Mesh (2) (2)
-    100242: Support (10)
-    100244: Support (11)
-    100246: Support (12)
-    100248: Support (13)
-    100250: Support (14)
-    100252: Support (15)
-    100254: Support (16)
-    100256: Support (17)
-    100258: Support (18)
-    100260: Support (19)
-    100262: Support (2)
-    100264: Support (20)
-    100266: Support (21)
-    100268: Support (22)
-    100270: Support (23)
-    100272: Support (3)
-    100274: Support (4)
-    100276: Support (5)
-    100278: Support (6)
-    100280: Support (7)
-    100282: Support (8)
-    100284: Support (9)
-    400000: //RootNode
-    400002: Core_Cylinder
-    400004: Main
-    400006: Mesh (30)
-    400008: Mesh (32)
-    400010: Mesh (33)
-    400012: Mesh (35)
-    400014: Mesh (36)
-    400016: Mesh (37)
-    400018: Mesh (38)
-    400020: Mesh (40)
-    400022: Mesh (41)
-    400024: Mesh (44)
-    400026: Mesh (45)
-    400028: Mesh (46)
-    400030: Mesh (47)
-    400032: Mesh (48)
-    400034: Mesh (52)
-    400036: Mesh (53)
-    400038: Mesh (54)
-    400040: Mesh (55)
-    400042: Mesh (57)
-    400044: Mesh (58)
-    400046: Mesh (59)
-    400048: Mesh (60)
-    400050: Mesh (61)
-    400052: Mesh (62)
-    400054: Mesh (63)
-    400056: Mesh (64)
-    400058: Mesh (65)
-    400060: Mesh (66)
-    400062: Mesh (67)
-    400064: Mesh (68)
-    400066: Mesh (69)
-    400068: Mesh (71)
-    400070: Mesh (72)
-    400072: Mesh (73)
-    400074: Mesh (77)
-    400076: Mesh (77) (2)
-    400078: Mesh (78)
-    400080: Mesh (79)
-    400082: Mesh (80)
-    400084: Mesh (81)
-    400086: Mesh (82)
-    400088: Wall (2)
-    400090: Circle_Element
-    400092: Circle_Element (2)
-    400094: Core_Cylinder (2)
-    400096: Core_Element
-    400098: Core_Element (10)
-    400100: Core_Element (11)
-    400102: Core_Element (12)
-    400104: Core_Element (13)
-    400106: Core_Element (14)
-    400108: Core_Element (15)
-    400110: Core_Element (16)
-    400112: Core_Element (17)
-    400114: Core_Element (18)
-    400116: Core_Element (19)
-    400118: Core_Element (2)
-    400120: Core_Element (20)
-    400122: Core_Element (21)
-    400124: Core_Element (22)
-    400126: Core_Element (23)
-    400128: Core_Element (24)
-    400130: Core_Element (25)
-    400132: Core_Element (26)
-    400134: Core_Element (27)
-    400136: Core_Element (28)
-    400138: Core_Element (29)
-    400140: Core_Element (3)
-    400142: Core_Element (30)
-    400144: Core_Element (31)
-    400146: Core_Element (32)
-    400148: Core_Element (33)
-    400150: Core_Element (34)
-    400152: Core_Element (35)
-    400154: Core_Element (36)
-    400156: Core_Element (37)
-    400158: Core_Element (38)
-    400160: Core_Element (39)
-    400162: Core_Element (4)
-    400164: Core_Element (40)
-    400166: Core_Element (41)
-    400168: Core_Element (42)
-    400170: Core_Element (43)
-    400172: Core_Element (44)
-    400174: Core_Element (5)
-    400176: Core_Element (6)
-    400178: Core_Element (7)
-    400180: Core_Element (8)
-    400182: Core_Element (9)
-    400184: Core_Support
-    400186: Core_Support (2)
-    400188: Core_Support (3)
-    400190: Core_Support (4)
-    400192: Core_Support (5)
-    400194: Core_Support (6)
-    400196: Core_Support (7)
-    400198: Mesh
-    400200: Mesh (10)
-    400202: Mesh (11)
-    400204: Mesh (12)
-    400206: Mesh (13)
-    400208: Mesh (14)
-    400210: Mesh (15)
-    400212: Mesh (16)
-    400214: Mesh (17)
-    400216: Mesh (18)
-    400218: Mesh (2)
-    400220: Mesh (3)
-    400222: Mesh (4)
-    400224: Mesh (5)
-    400226: Mesh (6)
-    400228: Mesh (7)
-    400230: Mesh (77) (3)
-    400232: Mesh (77) (4)
-    400234: Mesh (8)
-    400236: Mesh (9)
-    400238: Wall
-    400240: Mesh (2) (2)
-    400242: Support (10)
-    400244: Support (11)
-    400246: Support (12)
-    400248: Support (13)
-    400250: Support (14)
-    400252: Support (15)
-    400254: Support (16)
-    400256: Support (17)
-    400258: Support (18)
-    400260: Support (19)
-    400262: Support (2)
-    400264: Support (20)
-    400266: Support (21)
-    400268: Support (22)
-    400270: Support (23)
-    400272: Support (3)
-    400274: Support (4)
-    400276: Support (5)
-    400278: Support (6)
-    400280: Support (7)
-    400282: Support (8)
-    400284: Support (9)
-    2100000: Default
-    2100002: Core
-    2300000: Core_Cylinder
-    2300002: Main
-    2300004: Mesh (30)
-    2300006: Mesh (32)
-    2300008: Mesh (33)
-    2300010: Mesh (35)
-    2300012: Mesh (36)
-    2300014: Mesh (37)
-    2300016: Mesh (38)
-    2300018: Mesh (40)
-    2300020: Mesh (41)
-    2300022: Mesh (44)
-    2300024: Mesh (45)
-    2300026: Mesh (46)
-    2300028: Mesh (47)
-    2300030: Mesh (48)
-    2300032: Mesh (52)
-    2300034: Mesh (53)
-    2300036: Mesh (54)
-    2300038: Mesh (55)
-    2300040: Mesh (57)
-    2300042: Mesh (58)
-    2300044: Mesh (59)
-    2300046: Mesh (60)
-    2300048: Mesh (61)
-    2300050: Mesh (62)
-    2300052: Mesh (63)
-    2300054: Mesh (64)
-    2300056: Mesh (65)
-    2300058: Mesh (66)
-    2300060: Mesh (67)
-    2300062: Mesh (68)
-    2300064: Mesh (69)
-    2300066: Mesh (71)
-    2300068: Mesh (72)
-    2300070: Mesh (73)
-    2300072: Mesh (77)
-    2300074: Mesh (77) (2)
-    2300076: Mesh (78)
-    2300078: Mesh (79)
-    2300080: Mesh (80)
-    2300082: Mesh (81)
-    2300084: Mesh (82)
-    2300086: Wall (2)
-    2300088: Circle_Element
-    2300090: Circle_Element (2)
-    2300092: Core_Cylinder (2)
-    2300094: Core_Element
-    2300096: Core_Element (10)
-    2300098: Core_Element (11)
-    2300100: Core_Element (12)
-    2300102: Core_Element (13)
-    2300104: Core_Element (14)
-    2300106: Core_Element (15)
-    2300108: Core_Element (16)
-    2300110: Core_Element (17)
-    2300112: Core_Element (18)
-    2300114: Core_Element (19)
-    2300116: Core_Element (2)
-    2300118: Core_Element (20)
-    2300120: Core_Element (21)
-    2300122: Core_Element (22)
-    2300124: Core_Element (23)
-    2300126: Core_Element (24)
-    2300128: Core_Element (25)
-    2300130: Core_Element (26)
-    2300132: Core_Element (27)
-    2300134: Core_Element (28)
-    2300136: Core_Element (29)
-    2300138: Core_Element (3)
-    2300140: Core_Element (30)
-    2300142: Core_Element (31)
-    2300144: Core_Element (32)
-    2300146: Core_Element (33)
-    2300148: Core_Element (34)
-    2300150: Core_Element (35)
-    2300152: Core_Element (36)
-    2300154: Core_Element (37)
-    2300156: Core_Element (38)
-    2300158: Core_Element (39)
-    2300160: Core_Element (4)
-    2300162: Core_Element (40)
-    2300164: Core_Element (41)
-    2300166: Core_Element (42)
-    2300168: Core_Element (43)
-    2300170: Core_Element (44)
-    2300172: Core_Element (5)
-    2300174: Core_Element (6)
-    2300176: Core_Element (7)
-    2300178: Core_Element (8)
-    2300180: Core_Element (9)
-    2300182: Core_Support
-    2300184: Core_Support (2)
-    2300186: Core_Support (3)
-    2300188: Core_Support (4)
-    2300190: Core_Support (5)
-    2300192: Core_Support (6)
-    2300194: Core_Support (7)
-    2300196: Mesh
-    2300198: Mesh (10)
-    2300200: Mesh (11)
-    2300202: Mesh (12)
-    2300204: Mesh (13)
-    2300206: Mesh (14)
-    2300208: Mesh (15)
-    2300210: Mesh (16)
-    2300212: Mesh (17)
-    2300214: Mesh (18)
-    2300216: Mesh (2)
-    2300218: Mesh (3)
-    2300220: Mesh (4)
-    2300222: Mesh (5)
-    2300224: Mesh (6)
-    2300226: Mesh (7)
-    2300228: Mesh (77) (3)
-    2300230: Mesh (77) (4)
-    2300232: Mesh (8)
-    2300234: Mesh (9)
-    2300236: Wall
-    2300238: Mesh (2) (2)
-    2300240: Support (10)
-    2300242: Support (11)
-    2300244: Support (12)
-    2300246: Support (13)
-    2300248: Support (14)
-    2300250: Support (15)
-    2300252: Support (16)
-    2300254: Support (17)
-    2300256: Support (18)
-    2300258: Support (19)
-    2300260: Support (2)
-    2300262: Support (20)
-    2300264: Support (21)
-    2300266: Support (22)
-    2300268: Support (23)
-    2300270: Support (3)
-    2300272: Support (4)
-    2300274: Support (5)
-    2300276: Support (6)
-    2300278: Support (7)
-    2300280: Support (8)
-    2300282: Support (9)
-    3300000: Core_Cylinder
-    3300002: Main
-    3300004: Mesh (30)
-    3300006: Mesh (32)
-    3300008: Mesh (33)
-    3300010: Mesh (35)
-    3300012: Mesh (36)
-    3300014: Mesh (37)
-    3300016: Mesh (38)
-    3300018: Mesh (40)
-    3300020: Mesh (41)
-    3300022: Mesh (44)
-    3300024: Mesh (45)
-    3300026: Mesh (46)
-    3300028: Mesh (47)
-    3300030: Mesh (48)
-    3300032: Mesh (52)
-    3300034: Mesh (53)
-    3300036: Mesh (54)
-    3300038: Mesh (55)
-    3300040: Mesh (57)
-    3300042: Mesh (58)
-    3300044: Mesh (59)
-    3300046: Mesh (60)
-    3300048: Mesh (61)
-    3300050: Mesh (62)
-    3300052: Mesh (63)
-    3300054: Mesh (64)
-    3300056: Mesh (65)
-    3300058: Mesh (66)
-    3300060: Mesh (67)
-    3300062: Mesh (68)
-    3300064: Mesh (69)
-    3300066: Mesh (71)
-    3300068: Mesh (72)
-    3300070: Mesh (73)
-    3300072: Mesh (77)
-    3300074: Mesh (77) (2)
-    3300076: Mesh (78)
-    3300078: Mesh (79)
-    3300080: Mesh (80)
-    3300082: Mesh (81)
-    3300084: Mesh (82)
-    3300086: Wall (2)
-    3300088: Circle_Element
-    3300090: Circle_Element (2)
-    3300092: Core_Cylinder (2)
-    3300094: Core_Element
-    3300096: Core_Element (10)
-    3300098: Core_Element (11)
-    3300100: Core_Element (12)
-    3300102: Core_Element (13)
-    3300104: Core_Element (14)
-    3300106: Core_Element (15)
-    3300108: Core_Element (16)
-    3300110: Core_Element (17)
-    3300112: Core_Element (18)
-    3300114: Core_Element (19)
-    3300116: Core_Element (2)
-    3300118: Core_Element (20)
-    3300120: Core_Element (21)
-    3300122: Core_Element (22)
-    3300124: Core_Element (23)
-    3300126: Core_Element (24)
-    3300128: Core_Element (25)
-    3300130: Core_Element (26)
-    3300132: Core_Element (27)
-    3300134: Core_Element (28)
-    3300136: Core_Element (29)
-    3300138: Core_Element (3)
-    3300140: Core_Element (30)
-    3300142: Core_Element (31)
-    3300144: Core_Element (32)
-    3300146: Core_Element (33)
-    3300148: Core_Element (34)
-    3300150: Core_Element (35)
-    3300152: Core_Element (36)
-    3300154: Core_Element (37)
-    3300156: Core_Element (38)
-    3300158: Core_Element (39)
-    3300160: Core_Element (4)
-    3300162: Core_Element (40)
-    3300164: Core_Element (41)
-    3300166: Core_Element (42)
-    3300168: Core_Element (43)
-    3300170: Core_Element (44)
-    3300172: Core_Element (5)
-    3300174: Core_Element (6)
-    3300176: Core_Element (7)
-    3300178: Core_Element (8)
-    3300180: Core_Element (9)
-    3300182: Core_Support
-    3300184: Core_Support (2)
-    3300186: Core_Support (3)
-    3300188: Core_Support (4)
-    3300190: Core_Support (5)
-    3300192: Core_Support (6)
-    3300194: Core_Support (7)
-    3300196: Mesh
-    3300198: Mesh (10)
-    3300200: Mesh (11)
-    3300202: Mesh (12)
-    3300204: Mesh (13)
-    3300206: Mesh (14)
-    3300208: Mesh (15)
-    3300210: Mesh (16)
-    3300212: Mesh (17)
-    3300214: Mesh (18)
-    3300216: Mesh (2)
-    3300218: Mesh (3)
-    3300220: Mesh (4)
-    3300222: Mesh (5)
-    3300224: Mesh (6)
-    3300226: Mesh (7)
-    3300228: Mesh (77) (3)
-    3300230: Mesh (77) (4)
-    3300232: Mesh (8)
-    3300234: Mesh (9)
-    3300236: Wall
-    3300238: Mesh (2) (2)
-    3300240: Support (10)
-    3300242: Support (11)
-    3300244: Support (12)
-    3300246: Support (13)
-    3300248: Support (14)
-    3300250: Support (15)
-    3300252: Support (16)
-    3300254: Support (17)
-    3300256: Support (18)
-    3300258: Support (19)
-    3300260: Support (2)
-    3300262: Support (20)
-    3300264: Support (21)
-    3300266: Support (22)
-    3300268: Support (23)
-    3300270: Support (3)
-    3300272: Support (4)
-    3300274: Support (5)
-    3300276: Support (6)
-    3300278: Support (7)
-    3300280: Support (8)
-    3300282: Support (9)
-    4300000: Mesh (33)
-    4300002: Mesh (44)
-    4300004: Mesh (71)
-    4300006: Mesh (77) (2)
-    4300008: Wall (2)
-    4300010: Main
-    4300012: Core_Cylinder
-    4300014: Mesh (4)
-    4300016: Core_Element (22)
-    4300018: Core_Support (6)
-    4300020: Core_Element (23)
-    4300022: Wall
-    4300024: Core_Cylinder (2)
-    4300026: Core_Support (7)
-    4300028: Core_Support
-    4300030: Core_Support (3)
-    4300032: Core_Support (5)
-    4300034: Core_Support (2)
-    4300036: Core_Support (4)
-    4300038: Mesh
-    4300040: Circle_Element
-    4300042: Circle_Element (2)
-    4300044: Core_Element (10)
-    4300046: Core_Element (14)
-    4300048: Mesh (13)
-    4300050: Core_Element (32)
-    4300052: Core_Element (40)
-    4300054: Core_Element (26)
-    4300056: Core_Element (25)
-    4300058: Mesh (2) (2)
-    4300060: Core_Element (15)
-    4300062: Mesh (14)
-    4300064: Core_Element (43)
-    4300066: Core_Element (13)
-    4300068: Core_Element (27)
-    4300070: Core_Element (19)
-    4300072: Core_Element (11)
-    4300074: Core_Element (44)
-    4300076: Mesh (16)
-    4300078: Mesh (10)
-    4300080: Mesh (77) (3)
-    4300082: Core_Element (33)
-    4300084: Core_Element (21)
-    4300086: Mesh (15)
-    4300088: Core_Element (18)
-    4300090: Core_Element (24)
-    4300092: Core_Element (37)
-    4300094: Core_Element (20)
-    4300096: Core_Element (34)
-    4300098: Mesh (12)
-    4300100: Mesh (77) (4)
-    4300102: Core_Element (28)
-    4300104: Core_Element (30)
-    4300106: Core_Element (31)
-    4300108: Core_Element (39)
-    4300110: Core_Element (35)
-    4300112: Core_Element (12)
-    4300114: Core_Element (42)
-    4300116: Mesh (11)
-    4300118: Core_Element (41)
-    4300120: Mesh (17)
-    4300122: Core_Element (16)
-    4300124: Core_Element (17)
-    4300126: Core_Element (36)
-    4300128: Core_Element (38)
-    4300130: Core_Element (29)
-    4300132: Core_Element (9)
-    4300134: Core_Element (8)
-    4300136: Core_Element (7)
-    4300138: Core_Element (3)
-    4300140: Core_Element (2)
-    4300142: Core_Element (6)
-    4300144: Core_Element (5)
-    4300146: Core_Element (4)
-    4300148: Mesh (5)
-    4300150: Core_Element
-    4300152: Mesh (6)
-    4300154: Mesh (7)
-    4300156: Mesh (8)
-    4300158: Mesh (9)
-    4300160: Mesh (2)
-    4300162: Mesh (3)
-    4300164: Support (16)
-    4300166: Support (15)
-    2186277476908879412: ImportLogs
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Core_Cylinder
+  - first:
+      1: 100004
+    second: Main
+  - first:
+      1: 100006
+    second: Mesh (30)
+  - first:
+      1: 100008
+    second: Mesh (32)
+  - first:
+      1: 100010
+    second: Mesh (33)
+  - first:
+      1: 100012
+    second: Mesh (35)
+  - first:
+      1: 100014
+    second: Mesh (36)
+  - first:
+      1: 100016
+    second: Mesh (37)
+  - first:
+      1: 100018
+    second: Mesh (38)
+  - first:
+      1: 100020
+    second: Mesh (40)
+  - first:
+      1: 100022
+    second: Mesh (41)
+  - first:
+      1: 100024
+    second: Mesh (44)
+  - first:
+      1: 100026
+    second: Mesh (45)
+  - first:
+      1: 100028
+    second: Mesh (46)
+  - first:
+      1: 100030
+    second: Mesh (47)
+  - first:
+      1: 100032
+    second: Mesh (48)
+  - first:
+      1: 100034
+    second: Mesh (52)
+  - first:
+      1: 100036
+    second: Mesh (53)
+  - first:
+      1: 100038
+    second: Mesh (54)
+  - first:
+      1: 100040
+    second: Mesh (55)
+  - first:
+      1: 100042
+    second: Mesh (57)
+  - first:
+      1: 100044
+    second: Mesh (58)
+  - first:
+      1: 100046
+    second: Mesh (59)
+  - first:
+      1: 100048
+    second: Mesh (60)
+  - first:
+      1: 100050
+    second: Mesh (61)
+  - first:
+      1: 100052
+    second: Mesh (62)
+  - first:
+      1: 100054
+    second: Mesh (63)
+  - first:
+      1: 100056
+    second: Mesh (64)
+  - first:
+      1: 100058
+    second: Mesh (65)
+  - first:
+      1: 100060
+    second: Mesh (66)
+  - first:
+      1: 100062
+    second: Mesh (67)
+  - first:
+      1: 100064
+    second: Mesh (68)
+  - first:
+      1: 100066
+    second: Mesh (69)
+  - first:
+      1: 100068
+    second: Mesh (71)
+  - first:
+      1: 100070
+    second: Mesh (72)
+  - first:
+      1: 100072
+    second: Mesh (73)
+  - first:
+      1: 100074
+    second: Mesh (77)
+  - first:
+      1: 100076
+    second: Mesh (77) (2)
+  - first:
+      1: 100078
+    second: Mesh (78)
+  - first:
+      1: 100080
+    second: Mesh (79)
+  - first:
+      1: 100082
+    second: Mesh (80)
+  - first:
+      1: 100084
+    second: Mesh (81)
+  - first:
+      1: 100086
+    second: Mesh (82)
+  - first:
+      1: 100088
+    second: Wall (2)
+  - first:
+      1: 100090
+    second: Circle_Element
+  - first:
+      1: 100092
+    second: Circle_Element (2)
+  - first:
+      1: 100094
+    second: Core_Cylinder (2)
+  - first:
+      1: 100096
+    second: Core_Element
+  - first:
+      1: 100098
+    second: Core_Element (10)
+  - first:
+      1: 100100
+    second: Core_Element (11)
+  - first:
+      1: 100102
+    second: Core_Element (12)
+  - first:
+      1: 100104
+    second: Core_Element (13)
+  - first:
+      1: 100106
+    second: Core_Element (14)
+  - first:
+      1: 100108
+    second: Core_Element (15)
+  - first:
+      1: 100110
+    second: Core_Element (16)
+  - first:
+      1: 100112
+    second: Core_Element (17)
+  - first:
+      1: 100114
+    second: Core_Element (18)
+  - first:
+      1: 100116
+    second: Core_Element (19)
+  - first:
+      1: 100118
+    second: Core_Element (2)
+  - first:
+      1: 100120
+    second: Core_Element (20)
+  - first:
+      1: 100122
+    second: Core_Element (21)
+  - first:
+      1: 100124
+    second: Core_Element (22)
+  - first:
+      1: 100126
+    second: Core_Element (23)
+  - first:
+      1: 100128
+    second: Core_Element (24)
+  - first:
+      1: 100130
+    second: Core_Element (25)
+  - first:
+      1: 100132
+    second: Core_Element (26)
+  - first:
+      1: 100134
+    second: Core_Element (27)
+  - first:
+      1: 100136
+    second: Core_Element (28)
+  - first:
+      1: 100138
+    second: Core_Element (29)
+  - first:
+      1: 100140
+    second: Core_Element (3)
+  - first:
+      1: 100142
+    second: Core_Element (30)
+  - first:
+      1: 100144
+    second: Core_Element (31)
+  - first:
+      1: 100146
+    second: Core_Element (32)
+  - first:
+      1: 100148
+    second: Core_Element (33)
+  - first:
+      1: 100150
+    second: Core_Element (34)
+  - first:
+      1: 100152
+    second: Core_Element (35)
+  - first:
+      1: 100154
+    second: Core_Element (36)
+  - first:
+      1: 100156
+    second: Core_Element (37)
+  - first:
+      1: 100158
+    second: Core_Element (38)
+  - first:
+      1: 100160
+    second: Core_Element (39)
+  - first:
+      1: 100162
+    second: Core_Element (4)
+  - first:
+      1: 100164
+    second: Core_Element (40)
+  - first:
+      1: 100166
+    second: Core_Element (41)
+  - first:
+      1: 100168
+    second: Core_Element (42)
+  - first:
+      1: 100170
+    second: Core_Element (43)
+  - first:
+      1: 100172
+    second: Core_Element (44)
+  - first:
+      1: 100174
+    second: Core_Element (5)
+  - first:
+      1: 100176
+    second: Core_Element (6)
+  - first:
+      1: 100178
+    second: Core_Element (7)
+  - first:
+      1: 100180
+    second: Core_Element (8)
+  - first:
+      1: 100182
+    second: Core_Element (9)
+  - first:
+      1: 100184
+    second: Core_Support
+  - first:
+      1: 100186
+    second: Core_Support (2)
+  - first:
+      1: 100188
+    second: Core_Support (3)
+  - first:
+      1: 100190
+    second: Core_Support (4)
+  - first:
+      1: 100192
+    second: Core_Support (5)
+  - first:
+      1: 100194
+    second: Core_Support (6)
+  - first:
+      1: 100196
+    second: Core_Support (7)
+  - first:
+      1: 100198
+    second: Mesh
+  - first:
+      1: 100200
+    second: Mesh (10)
+  - first:
+      1: 100202
+    second: Mesh (11)
+  - first:
+      1: 100204
+    second: Mesh (12)
+  - first:
+      1: 100206
+    second: Mesh (13)
+  - first:
+      1: 100208
+    second: Mesh (14)
+  - first:
+      1: 100210
+    second: Mesh (15)
+  - first:
+      1: 100212
+    second: Mesh (16)
+  - first:
+      1: 100214
+    second: Mesh (17)
+  - first:
+      1: 100216
+    second: Mesh (18)
+  - first:
+      1: 100218
+    second: Mesh (2)
+  - first:
+      1: 100220
+    second: Mesh (3)
+  - first:
+      1: 100222
+    second: Mesh (4)
+  - first:
+      1: 100224
+    second: Mesh (5)
+  - first:
+      1: 100226
+    second: Mesh (6)
+  - first:
+      1: 100228
+    second: Mesh (7)
+  - first:
+      1: 100230
+    second: Mesh (77) (3)
+  - first:
+      1: 100232
+    second: Mesh (77) (4)
+  - first:
+      1: 100234
+    second: Mesh (8)
+  - first:
+      1: 100236
+    second: Mesh (9)
+  - first:
+      1: 100238
+    second: Wall
+  - first:
+      1: 100240
+    second: Mesh (2) (2)
+  - first:
+      1: 100242
+    second: Support (10)
+  - first:
+      1: 100244
+    second: Support (11)
+  - first:
+      1: 100246
+    second: Support (12)
+  - first:
+      1: 100248
+    second: Support (13)
+  - first:
+      1: 100250
+    second: Support (14)
+  - first:
+      1: 100252
+    second: Support (15)
+  - first:
+      1: 100254
+    second: Support (16)
+  - first:
+      1: 100256
+    second: Support (17)
+  - first:
+      1: 100258
+    second: Support (18)
+  - first:
+      1: 100260
+    second: Support (19)
+  - first:
+      1: 100262
+    second: Support (2)
+  - first:
+      1: 100264
+    second: Support (20)
+  - first:
+      1: 100266
+    second: Support (21)
+  - first:
+      1: 100268
+    second: Support (22)
+  - first:
+      1: 100270
+    second: Support (23)
+  - first:
+      1: 100272
+    second: Support (3)
+  - first:
+      1: 100274
+    second: Support (4)
+  - first:
+      1: 100276
+    second: Support (5)
+  - first:
+      1: 100278
+    second: Support (6)
+  - first:
+      1: 100280
+    second: Support (7)
+  - first:
+      1: 100282
+    second: Support (8)
+  - first:
+      1: 100284
+    second: Support (9)
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Core_Cylinder
+  - first:
+      4: 400004
+    second: Main
+  - first:
+      4: 400006
+    second: Mesh (30)
+  - first:
+      4: 400008
+    second: Mesh (32)
+  - first:
+      4: 400010
+    second: Mesh (33)
+  - first:
+      4: 400012
+    second: Mesh (35)
+  - first:
+      4: 400014
+    second: Mesh (36)
+  - first:
+      4: 400016
+    second: Mesh (37)
+  - first:
+      4: 400018
+    second: Mesh (38)
+  - first:
+      4: 400020
+    second: Mesh (40)
+  - first:
+      4: 400022
+    second: Mesh (41)
+  - first:
+      4: 400024
+    second: Mesh (44)
+  - first:
+      4: 400026
+    second: Mesh (45)
+  - first:
+      4: 400028
+    second: Mesh (46)
+  - first:
+      4: 400030
+    second: Mesh (47)
+  - first:
+      4: 400032
+    second: Mesh (48)
+  - first:
+      4: 400034
+    second: Mesh (52)
+  - first:
+      4: 400036
+    second: Mesh (53)
+  - first:
+      4: 400038
+    second: Mesh (54)
+  - first:
+      4: 400040
+    second: Mesh (55)
+  - first:
+      4: 400042
+    second: Mesh (57)
+  - first:
+      4: 400044
+    second: Mesh (58)
+  - first:
+      4: 400046
+    second: Mesh (59)
+  - first:
+      4: 400048
+    second: Mesh (60)
+  - first:
+      4: 400050
+    second: Mesh (61)
+  - first:
+      4: 400052
+    second: Mesh (62)
+  - first:
+      4: 400054
+    second: Mesh (63)
+  - first:
+      4: 400056
+    second: Mesh (64)
+  - first:
+      4: 400058
+    second: Mesh (65)
+  - first:
+      4: 400060
+    second: Mesh (66)
+  - first:
+      4: 400062
+    second: Mesh (67)
+  - first:
+      4: 400064
+    second: Mesh (68)
+  - first:
+      4: 400066
+    second: Mesh (69)
+  - first:
+      4: 400068
+    second: Mesh (71)
+  - first:
+      4: 400070
+    second: Mesh (72)
+  - first:
+      4: 400072
+    second: Mesh (73)
+  - first:
+      4: 400074
+    second: Mesh (77)
+  - first:
+      4: 400076
+    second: Mesh (77) (2)
+  - first:
+      4: 400078
+    second: Mesh (78)
+  - first:
+      4: 400080
+    second: Mesh (79)
+  - first:
+      4: 400082
+    second: Mesh (80)
+  - first:
+      4: 400084
+    second: Mesh (81)
+  - first:
+      4: 400086
+    second: Mesh (82)
+  - first:
+      4: 400088
+    second: Wall (2)
+  - first:
+      4: 400090
+    second: Circle_Element
+  - first:
+      4: 400092
+    second: Circle_Element (2)
+  - first:
+      4: 400094
+    second: Core_Cylinder (2)
+  - first:
+      4: 400096
+    second: Core_Element
+  - first:
+      4: 400098
+    second: Core_Element (10)
+  - first:
+      4: 400100
+    second: Core_Element (11)
+  - first:
+      4: 400102
+    second: Core_Element (12)
+  - first:
+      4: 400104
+    second: Core_Element (13)
+  - first:
+      4: 400106
+    second: Core_Element (14)
+  - first:
+      4: 400108
+    second: Core_Element (15)
+  - first:
+      4: 400110
+    second: Core_Element (16)
+  - first:
+      4: 400112
+    second: Core_Element (17)
+  - first:
+      4: 400114
+    second: Core_Element (18)
+  - first:
+      4: 400116
+    second: Core_Element (19)
+  - first:
+      4: 400118
+    second: Core_Element (2)
+  - first:
+      4: 400120
+    second: Core_Element (20)
+  - first:
+      4: 400122
+    second: Core_Element (21)
+  - first:
+      4: 400124
+    second: Core_Element (22)
+  - first:
+      4: 400126
+    second: Core_Element (23)
+  - first:
+      4: 400128
+    second: Core_Element (24)
+  - first:
+      4: 400130
+    second: Core_Element (25)
+  - first:
+      4: 400132
+    second: Core_Element (26)
+  - first:
+      4: 400134
+    second: Core_Element (27)
+  - first:
+      4: 400136
+    second: Core_Element (28)
+  - first:
+      4: 400138
+    second: Core_Element (29)
+  - first:
+      4: 400140
+    second: Core_Element (3)
+  - first:
+      4: 400142
+    second: Core_Element (30)
+  - first:
+      4: 400144
+    second: Core_Element (31)
+  - first:
+      4: 400146
+    second: Core_Element (32)
+  - first:
+      4: 400148
+    second: Core_Element (33)
+  - first:
+      4: 400150
+    second: Core_Element (34)
+  - first:
+      4: 400152
+    second: Core_Element (35)
+  - first:
+      4: 400154
+    second: Core_Element (36)
+  - first:
+      4: 400156
+    second: Core_Element (37)
+  - first:
+      4: 400158
+    second: Core_Element (38)
+  - first:
+      4: 400160
+    second: Core_Element (39)
+  - first:
+      4: 400162
+    second: Core_Element (4)
+  - first:
+      4: 400164
+    second: Core_Element (40)
+  - first:
+      4: 400166
+    second: Core_Element (41)
+  - first:
+      4: 400168
+    second: Core_Element (42)
+  - first:
+      4: 400170
+    second: Core_Element (43)
+  - first:
+      4: 400172
+    second: Core_Element (44)
+  - first:
+      4: 400174
+    second: Core_Element (5)
+  - first:
+      4: 400176
+    second: Core_Element (6)
+  - first:
+      4: 400178
+    second: Core_Element (7)
+  - first:
+      4: 400180
+    second: Core_Element (8)
+  - first:
+      4: 400182
+    second: Core_Element (9)
+  - first:
+      4: 400184
+    second: Core_Support
+  - first:
+      4: 400186
+    second: Core_Support (2)
+  - first:
+      4: 400188
+    second: Core_Support (3)
+  - first:
+      4: 400190
+    second: Core_Support (4)
+  - first:
+      4: 400192
+    second: Core_Support (5)
+  - first:
+      4: 400194
+    second: Core_Support (6)
+  - first:
+      4: 400196
+    second: Core_Support (7)
+  - first:
+      4: 400198
+    second: Mesh
+  - first:
+      4: 400200
+    second: Mesh (10)
+  - first:
+      4: 400202
+    second: Mesh (11)
+  - first:
+      4: 400204
+    second: Mesh (12)
+  - first:
+      4: 400206
+    second: Mesh (13)
+  - first:
+      4: 400208
+    second: Mesh (14)
+  - first:
+      4: 400210
+    second: Mesh (15)
+  - first:
+      4: 400212
+    second: Mesh (16)
+  - first:
+      4: 400214
+    second: Mesh (17)
+  - first:
+      4: 400216
+    second: Mesh (18)
+  - first:
+      4: 400218
+    second: Mesh (2)
+  - first:
+      4: 400220
+    second: Mesh (3)
+  - first:
+      4: 400222
+    second: Mesh (4)
+  - first:
+      4: 400224
+    second: Mesh (5)
+  - first:
+      4: 400226
+    second: Mesh (6)
+  - first:
+      4: 400228
+    second: Mesh (7)
+  - first:
+      4: 400230
+    second: Mesh (77) (3)
+  - first:
+      4: 400232
+    second: Mesh (77) (4)
+  - first:
+      4: 400234
+    second: Mesh (8)
+  - first:
+      4: 400236
+    second: Mesh (9)
+  - first:
+      4: 400238
+    second: Wall
+  - first:
+      4: 400240
+    second: Mesh (2) (2)
+  - first:
+      4: 400242
+    second: Support (10)
+  - first:
+      4: 400244
+    second: Support (11)
+  - first:
+      4: 400246
+    second: Support (12)
+  - first:
+      4: 400248
+    second: Support (13)
+  - first:
+      4: 400250
+    second: Support (14)
+  - first:
+      4: 400252
+    second: Support (15)
+  - first:
+      4: 400254
+    second: Support (16)
+  - first:
+      4: 400256
+    second: Support (17)
+  - first:
+      4: 400258
+    second: Support (18)
+  - first:
+      4: 400260
+    second: Support (19)
+  - first:
+      4: 400262
+    second: Support (2)
+  - first:
+      4: 400264
+    second: Support (20)
+  - first:
+      4: 400266
+    second: Support (21)
+  - first:
+      4: 400268
+    second: Support (22)
+  - first:
+      4: 400270
+    second: Support (23)
+  - first:
+      4: 400272
+    second: Support (3)
+  - first:
+      4: 400274
+    second: Support (4)
+  - first:
+      4: 400276
+    second: Support (5)
+  - first:
+      4: 400278
+    second: Support (6)
+  - first:
+      4: 400280
+    second: Support (7)
+  - first:
+      4: 400282
+    second: Support (8)
+  - first:
+      4: 400284
+    second: Support (9)
+  - first:
+      21: 2100000
+    second: Default
+  - first:
+      21: 2100002
+    second: Core
+  - first:
+      23: 2300000
+    second: Core_Cylinder
+  - first:
+      23: 2300002
+    second: Main
+  - first:
+      23: 2300004
+    second: Mesh (30)
+  - first:
+      23: 2300006
+    second: Mesh (32)
+  - first:
+      23: 2300008
+    second: Mesh (33)
+  - first:
+      23: 2300010
+    second: Mesh (35)
+  - first:
+      23: 2300012
+    second: Mesh (36)
+  - first:
+      23: 2300014
+    second: Mesh (37)
+  - first:
+      23: 2300016
+    second: Mesh (38)
+  - first:
+      23: 2300018
+    second: Mesh (40)
+  - first:
+      23: 2300020
+    second: Mesh (41)
+  - first:
+      23: 2300022
+    second: Mesh (44)
+  - first:
+      23: 2300024
+    second: Mesh (45)
+  - first:
+      23: 2300026
+    second: Mesh (46)
+  - first:
+      23: 2300028
+    second: Mesh (47)
+  - first:
+      23: 2300030
+    second: Mesh (48)
+  - first:
+      23: 2300032
+    second: Mesh (52)
+  - first:
+      23: 2300034
+    second: Mesh (53)
+  - first:
+      23: 2300036
+    second: Mesh (54)
+  - first:
+      23: 2300038
+    second: Mesh (55)
+  - first:
+      23: 2300040
+    second: Mesh (57)
+  - first:
+      23: 2300042
+    second: Mesh (58)
+  - first:
+      23: 2300044
+    second: Mesh (59)
+  - first:
+      23: 2300046
+    second: Mesh (60)
+  - first:
+      23: 2300048
+    second: Mesh (61)
+  - first:
+      23: 2300050
+    second: Mesh (62)
+  - first:
+      23: 2300052
+    second: Mesh (63)
+  - first:
+      23: 2300054
+    second: Mesh (64)
+  - first:
+      23: 2300056
+    second: Mesh (65)
+  - first:
+      23: 2300058
+    second: Mesh (66)
+  - first:
+      23: 2300060
+    second: Mesh (67)
+  - first:
+      23: 2300062
+    second: Mesh (68)
+  - first:
+      23: 2300064
+    second: Mesh (69)
+  - first:
+      23: 2300066
+    second: Mesh (71)
+  - first:
+      23: 2300068
+    second: Mesh (72)
+  - first:
+      23: 2300070
+    second: Mesh (73)
+  - first:
+      23: 2300072
+    second: Mesh (77)
+  - first:
+      23: 2300074
+    second: Mesh (77) (2)
+  - first:
+      23: 2300076
+    second: Mesh (78)
+  - first:
+      23: 2300078
+    second: Mesh (79)
+  - first:
+      23: 2300080
+    second: Mesh (80)
+  - first:
+      23: 2300082
+    second: Mesh (81)
+  - first:
+      23: 2300084
+    second: Mesh (82)
+  - first:
+      23: 2300086
+    second: Wall (2)
+  - first:
+      23: 2300088
+    second: Circle_Element
+  - first:
+      23: 2300090
+    second: Circle_Element (2)
+  - first:
+      23: 2300092
+    second: Core_Cylinder (2)
+  - first:
+      23: 2300094
+    second: Core_Element
+  - first:
+      23: 2300096
+    second: Core_Element (10)
+  - first:
+      23: 2300098
+    second: Core_Element (11)
+  - first:
+      23: 2300100
+    second: Core_Element (12)
+  - first:
+      23: 2300102
+    second: Core_Element (13)
+  - first:
+      23: 2300104
+    second: Core_Element (14)
+  - first:
+      23: 2300106
+    second: Core_Element (15)
+  - first:
+      23: 2300108
+    second: Core_Element (16)
+  - first:
+      23: 2300110
+    second: Core_Element (17)
+  - first:
+      23: 2300112
+    second: Core_Element (18)
+  - first:
+      23: 2300114
+    second: Core_Element (19)
+  - first:
+      23: 2300116
+    second: Core_Element (2)
+  - first:
+      23: 2300118
+    second: Core_Element (20)
+  - first:
+      23: 2300120
+    second: Core_Element (21)
+  - first:
+      23: 2300122
+    second: Core_Element (22)
+  - first:
+      23: 2300124
+    second: Core_Element (23)
+  - first:
+      23: 2300126
+    second: Core_Element (24)
+  - first:
+      23: 2300128
+    second: Core_Element (25)
+  - first:
+      23: 2300130
+    second: Core_Element (26)
+  - first:
+      23: 2300132
+    second: Core_Element (27)
+  - first:
+      23: 2300134
+    second: Core_Element (28)
+  - first:
+      23: 2300136
+    second: Core_Element (29)
+  - first:
+      23: 2300138
+    second: Core_Element (3)
+  - first:
+      23: 2300140
+    second: Core_Element (30)
+  - first:
+      23: 2300142
+    second: Core_Element (31)
+  - first:
+      23: 2300144
+    second: Core_Element (32)
+  - first:
+      23: 2300146
+    second: Core_Element (33)
+  - first:
+      23: 2300148
+    second: Core_Element (34)
+  - first:
+      23: 2300150
+    second: Core_Element (35)
+  - first:
+      23: 2300152
+    second: Core_Element (36)
+  - first:
+      23: 2300154
+    second: Core_Element (37)
+  - first:
+      23: 2300156
+    second: Core_Element (38)
+  - first:
+      23: 2300158
+    second: Core_Element (39)
+  - first:
+      23: 2300160
+    second: Core_Element (4)
+  - first:
+      23: 2300162
+    second: Core_Element (40)
+  - first:
+      23: 2300164
+    second: Core_Element (41)
+  - first:
+      23: 2300166
+    second: Core_Element (42)
+  - first:
+      23: 2300168
+    second: Core_Element (43)
+  - first:
+      23: 2300170
+    second: Core_Element (44)
+  - first:
+      23: 2300172
+    second: Core_Element (5)
+  - first:
+      23: 2300174
+    second: Core_Element (6)
+  - first:
+      23: 2300176
+    second: Core_Element (7)
+  - first:
+      23: 2300178
+    second: Core_Element (8)
+  - first:
+      23: 2300180
+    second: Core_Element (9)
+  - first:
+      23: 2300182
+    second: Core_Support
+  - first:
+      23: 2300184
+    second: Core_Support (2)
+  - first:
+      23: 2300186
+    second: Core_Support (3)
+  - first:
+      23: 2300188
+    second: Core_Support (4)
+  - first:
+      23: 2300190
+    second: Core_Support (5)
+  - first:
+      23: 2300192
+    second: Core_Support (6)
+  - first:
+      23: 2300194
+    second: Core_Support (7)
+  - first:
+      23: 2300196
+    second: Mesh
+  - first:
+      23: 2300198
+    second: Mesh (10)
+  - first:
+      23: 2300200
+    second: Mesh (11)
+  - first:
+      23: 2300202
+    second: Mesh (12)
+  - first:
+      23: 2300204
+    second: Mesh (13)
+  - first:
+      23: 2300206
+    second: Mesh (14)
+  - first:
+      23: 2300208
+    second: Mesh (15)
+  - first:
+      23: 2300210
+    second: Mesh (16)
+  - first:
+      23: 2300212
+    second: Mesh (17)
+  - first:
+      23: 2300214
+    second: Mesh (18)
+  - first:
+      23: 2300216
+    second: Mesh (2)
+  - first:
+      23: 2300218
+    second: Mesh (3)
+  - first:
+      23: 2300220
+    second: Mesh (4)
+  - first:
+      23: 2300222
+    second: Mesh (5)
+  - first:
+      23: 2300224
+    second: Mesh (6)
+  - first:
+      23: 2300226
+    second: Mesh (7)
+  - first:
+      23: 2300228
+    second: Mesh (77) (3)
+  - first:
+      23: 2300230
+    second: Mesh (77) (4)
+  - first:
+      23: 2300232
+    second: Mesh (8)
+  - first:
+      23: 2300234
+    second: Mesh (9)
+  - first:
+      23: 2300236
+    second: Wall
+  - first:
+      23: 2300238
+    second: Mesh (2) (2)
+  - first:
+      23: 2300240
+    second: Support (10)
+  - first:
+      23: 2300242
+    second: Support (11)
+  - first:
+      23: 2300244
+    second: Support (12)
+  - first:
+      23: 2300246
+    second: Support (13)
+  - first:
+      23: 2300248
+    second: Support (14)
+  - first:
+      23: 2300250
+    second: Support (15)
+  - first:
+      23: 2300252
+    second: Support (16)
+  - first:
+      23: 2300254
+    second: Support (17)
+  - first:
+      23: 2300256
+    second: Support (18)
+  - first:
+      23: 2300258
+    second: Support (19)
+  - first:
+      23: 2300260
+    second: Support (2)
+  - first:
+      23: 2300262
+    second: Support (20)
+  - first:
+      23: 2300264
+    second: Support (21)
+  - first:
+      23: 2300266
+    second: Support (22)
+  - first:
+      23: 2300268
+    second: Support (23)
+  - first:
+      23: 2300270
+    second: Support (3)
+  - first:
+      23: 2300272
+    second: Support (4)
+  - first:
+      23: 2300274
+    second: Support (5)
+  - first:
+      23: 2300276
+    second: Support (6)
+  - first:
+      23: 2300278
+    second: Support (7)
+  - first:
+      23: 2300280
+    second: Support (8)
+  - first:
+      23: 2300282
+    second: Support (9)
+  - first:
+      33: 3300000
+    second: Core_Cylinder
+  - first:
+      33: 3300002
+    second: Main
+  - first:
+      33: 3300004
+    second: Mesh (30)
+  - first:
+      33: 3300006
+    second: Mesh (32)
+  - first:
+      33: 3300008
+    second: Mesh (33)
+  - first:
+      33: 3300010
+    second: Mesh (35)
+  - first:
+      33: 3300012
+    second: Mesh (36)
+  - first:
+      33: 3300014
+    second: Mesh (37)
+  - first:
+      33: 3300016
+    second: Mesh (38)
+  - first:
+      33: 3300018
+    second: Mesh (40)
+  - first:
+      33: 3300020
+    second: Mesh (41)
+  - first:
+      33: 3300022
+    second: Mesh (44)
+  - first:
+      33: 3300024
+    second: Mesh (45)
+  - first:
+      33: 3300026
+    second: Mesh (46)
+  - first:
+      33: 3300028
+    second: Mesh (47)
+  - first:
+      33: 3300030
+    second: Mesh (48)
+  - first:
+      33: 3300032
+    second: Mesh (52)
+  - first:
+      33: 3300034
+    second: Mesh (53)
+  - first:
+      33: 3300036
+    second: Mesh (54)
+  - first:
+      33: 3300038
+    second: Mesh (55)
+  - first:
+      33: 3300040
+    second: Mesh (57)
+  - first:
+      33: 3300042
+    second: Mesh (58)
+  - first:
+      33: 3300044
+    second: Mesh (59)
+  - first:
+      33: 3300046
+    second: Mesh (60)
+  - first:
+      33: 3300048
+    second: Mesh (61)
+  - first:
+      33: 3300050
+    second: Mesh (62)
+  - first:
+      33: 3300052
+    second: Mesh (63)
+  - first:
+      33: 3300054
+    second: Mesh (64)
+  - first:
+      33: 3300056
+    second: Mesh (65)
+  - first:
+      33: 3300058
+    second: Mesh (66)
+  - first:
+      33: 3300060
+    second: Mesh (67)
+  - first:
+      33: 3300062
+    second: Mesh (68)
+  - first:
+      33: 3300064
+    second: Mesh (69)
+  - first:
+      33: 3300066
+    second: Mesh (71)
+  - first:
+      33: 3300068
+    second: Mesh (72)
+  - first:
+      33: 3300070
+    second: Mesh (73)
+  - first:
+      33: 3300072
+    second: Mesh (77)
+  - first:
+      33: 3300074
+    second: Mesh (77) (2)
+  - first:
+      33: 3300076
+    second: Mesh (78)
+  - first:
+      33: 3300078
+    second: Mesh (79)
+  - first:
+      33: 3300080
+    second: Mesh (80)
+  - first:
+      33: 3300082
+    second: Mesh (81)
+  - first:
+      33: 3300084
+    second: Mesh (82)
+  - first:
+      33: 3300086
+    second: Wall (2)
+  - first:
+      33: 3300088
+    second: Circle_Element
+  - first:
+      33: 3300090
+    second: Circle_Element (2)
+  - first:
+      33: 3300092
+    second: Core_Cylinder (2)
+  - first:
+      33: 3300094
+    second: Core_Element
+  - first:
+      33: 3300096
+    second: Core_Element (10)
+  - first:
+      33: 3300098
+    second: Core_Element (11)
+  - first:
+      33: 3300100
+    second: Core_Element (12)
+  - first:
+      33: 3300102
+    second: Core_Element (13)
+  - first:
+      33: 3300104
+    second: Core_Element (14)
+  - first:
+      33: 3300106
+    second: Core_Element (15)
+  - first:
+      33: 3300108
+    second: Core_Element (16)
+  - first:
+      33: 3300110
+    second: Core_Element (17)
+  - first:
+      33: 3300112
+    second: Core_Element (18)
+  - first:
+      33: 3300114
+    second: Core_Element (19)
+  - first:
+      33: 3300116
+    second: Core_Element (2)
+  - first:
+      33: 3300118
+    second: Core_Element (20)
+  - first:
+      33: 3300120
+    second: Core_Element (21)
+  - first:
+      33: 3300122
+    second: Core_Element (22)
+  - first:
+      33: 3300124
+    second: Core_Element (23)
+  - first:
+      33: 3300126
+    second: Core_Element (24)
+  - first:
+      33: 3300128
+    second: Core_Element (25)
+  - first:
+      33: 3300130
+    second: Core_Element (26)
+  - first:
+      33: 3300132
+    second: Core_Element (27)
+  - first:
+      33: 3300134
+    second: Core_Element (28)
+  - first:
+      33: 3300136
+    second: Core_Element (29)
+  - first:
+      33: 3300138
+    second: Core_Element (3)
+  - first:
+      33: 3300140
+    second: Core_Element (30)
+  - first:
+      33: 3300142
+    second: Core_Element (31)
+  - first:
+      33: 3300144
+    second: Core_Element (32)
+  - first:
+      33: 3300146
+    second: Core_Element (33)
+  - first:
+      33: 3300148
+    second: Core_Element (34)
+  - first:
+      33: 3300150
+    second: Core_Element (35)
+  - first:
+      33: 3300152
+    second: Core_Element (36)
+  - first:
+      33: 3300154
+    second: Core_Element (37)
+  - first:
+      33: 3300156
+    second: Core_Element (38)
+  - first:
+      33: 3300158
+    second: Core_Element (39)
+  - first:
+      33: 3300160
+    second: Core_Element (4)
+  - first:
+      33: 3300162
+    second: Core_Element (40)
+  - first:
+      33: 3300164
+    second: Core_Element (41)
+  - first:
+      33: 3300166
+    second: Core_Element (42)
+  - first:
+      33: 3300168
+    second: Core_Element (43)
+  - first:
+      33: 3300170
+    second: Core_Element (44)
+  - first:
+      33: 3300172
+    second: Core_Element (5)
+  - first:
+      33: 3300174
+    second: Core_Element (6)
+  - first:
+      33: 3300176
+    second: Core_Element (7)
+  - first:
+      33: 3300178
+    second: Core_Element (8)
+  - first:
+      33: 3300180
+    second: Core_Element (9)
+  - first:
+      33: 3300182
+    second: Core_Support
+  - first:
+      33: 3300184
+    second: Core_Support (2)
+  - first:
+      33: 3300186
+    second: Core_Support (3)
+  - first:
+      33: 3300188
+    second: Core_Support (4)
+  - first:
+      33: 3300190
+    second: Core_Support (5)
+  - first:
+      33: 3300192
+    second: Core_Support (6)
+  - first:
+      33: 3300194
+    second: Core_Support (7)
+  - first:
+      33: 3300196
+    second: Mesh
+  - first:
+      33: 3300198
+    second: Mesh (10)
+  - first:
+      33: 3300200
+    second: Mesh (11)
+  - first:
+      33: 3300202
+    second: Mesh (12)
+  - first:
+      33: 3300204
+    second: Mesh (13)
+  - first:
+      33: 3300206
+    second: Mesh (14)
+  - first:
+      33: 3300208
+    second: Mesh (15)
+  - first:
+      33: 3300210
+    second: Mesh (16)
+  - first:
+      33: 3300212
+    second: Mesh (17)
+  - first:
+      33: 3300214
+    second: Mesh (18)
+  - first:
+      33: 3300216
+    second: Mesh (2)
+  - first:
+      33: 3300218
+    second: Mesh (3)
+  - first:
+      33: 3300220
+    second: Mesh (4)
+  - first:
+      33: 3300222
+    second: Mesh (5)
+  - first:
+      33: 3300224
+    second: Mesh (6)
+  - first:
+      33: 3300226
+    second: Mesh (7)
+  - first:
+      33: 3300228
+    second: Mesh (77) (3)
+  - first:
+      33: 3300230
+    second: Mesh (77) (4)
+  - first:
+      33: 3300232
+    second: Mesh (8)
+  - first:
+      33: 3300234
+    second: Mesh (9)
+  - first:
+      33: 3300236
+    second: Wall
+  - first:
+      33: 3300238
+    second: Mesh (2) (2)
+  - first:
+      33: 3300240
+    second: Support (10)
+  - first:
+      33: 3300242
+    second: Support (11)
+  - first:
+      33: 3300244
+    second: Support (12)
+  - first:
+      33: 3300246
+    second: Support (13)
+  - first:
+      33: 3300248
+    second: Support (14)
+  - first:
+      33: 3300250
+    second: Support (15)
+  - first:
+      33: 3300252
+    second: Support (16)
+  - first:
+      33: 3300254
+    second: Support (17)
+  - first:
+      33: 3300256
+    second: Support (18)
+  - first:
+      33: 3300258
+    second: Support (19)
+  - first:
+      33: 3300260
+    second: Support (2)
+  - first:
+      33: 3300262
+    second: Support (20)
+  - first:
+      33: 3300264
+    second: Support (21)
+  - first:
+      33: 3300266
+    second: Support (22)
+  - first:
+      33: 3300268
+    second: Support (23)
+  - first:
+      33: 3300270
+    second: Support (3)
+  - first:
+      33: 3300272
+    second: Support (4)
+  - first:
+      33: 3300274
+    second: Support (5)
+  - first:
+      33: 3300276
+    second: Support (6)
+  - first:
+      33: 3300278
+    second: Support (7)
+  - first:
+      33: 3300280
+    second: Support (8)
+  - first:
+      33: 3300282
+    second: Support (9)
+  - first:
+      43: 4300000
+    second: Mesh (33)
+  - first:
+      43: 4300002
+    second: Mesh (44)
+  - first:
+      43: 4300004
+    second: Mesh (71)
+  - first:
+      43: 4300006
+    second: Mesh (77) (2)
+  - first:
+      43: 4300008
+    second: Wall (2)
+  - first:
+      43: 4300010
+    second: Main
+  - first:
+      43: 4300012
+    second: Core_Cylinder
+  - first:
+      43: 4300014
+    second: Mesh (4)
+  - first:
+      43: 4300016
+    second: Core_Element (22)
+  - first:
+      43: 4300018
+    second: Core_Support (6)
+  - first:
+      43: 4300020
+    second: Core_Element (23)
+  - first:
+      43: 4300022
+    second: Wall
+  - first:
+      43: 4300024
+    second: Core_Cylinder (2)
+  - first:
+      43: 4300026
+    second: Core_Support (7)
+  - first:
+      43: 4300028
+    second: Core_Support
+  - first:
+      43: 4300030
+    second: Core_Support (3)
+  - first:
+      43: 4300032
+    second: Core_Support (5)
+  - first:
+      43: 4300034
+    second: Core_Support (2)
+  - first:
+      43: 4300036
+    second: Core_Support (4)
+  - first:
+      43: 4300038
+    second: Mesh
+  - first:
+      43: 4300040
+    second: Circle_Element
+  - first:
+      43: 4300042
+    second: Circle_Element (2)
+  - first:
+      43: 4300044
+    second: Core_Element (10)
+  - first:
+      43: 4300046
+    second: Core_Element (14)
+  - first:
+      43: 4300048
+    second: Mesh (13)
+  - first:
+      43: 4300050
+    second: Core_Element (32)
+  - first:
+      43: 4300052
+    second: Core_Element (40)
+  - first:
+      43: 4300054
+    second: Core_Element (26)
+  - first:
+      43: 4300056
+    second: Core_Element (25)
+  - first:
+      43: 4300058
+    second: Mesh (2) (2)
+  - first:
+      43: 4300060
+    second: Core_Element (15)
+  - first:
+      43: 4300062
+    second: Mesh (14)
+  - first:
+      43: 4300064
+    second: Core_Element (43)
+  - first:
+      43: 4300066
+    second: Core_Element (13)
+  - first:
+      43: 4300068
+    second: Core_Element (27)
+  - first:
+      43: 4300070
+    second: Core_Element (19)
+  - first:
+      43: 4300072
+    second: Core_Element (11)
+  - first:
+      43: 4300074
+    second: Core_Element (44)
+  - first:
+      43: 4300076
+    second: Mesh (16)
+  - first:
+      43: 4300078
+    second: Mesh (10)
+  - first:
+      43: 4300080
+    second: Mesh (77) (3)
+  - first:
+      43: 4300082
+    second: Core_Element (33)
+  - first:
+      43: 4300084
+    second: Core_Element (21)
+  - first:
+      43: 4300086
+    second: Mesh (15)
+  - first:
+      43: 4300088
+    second: Core_Element (18)
+  - first:
+      43: 4300090
+    second: Core_Element (24)
+  - first:
+      43: 4300092
+    second: Core_Element (37)
+  - first:
+      43: 4300094
+    second: Core_Element (20)
+  - first:
+      43: 4300096
+    second: Core_Element (34)
+  - first:
+      43: 4300098
+    second: Mesh (12)
+  - first:
+      43: 4300100
+    second: Mesh (77) (4)
+  - first:
+      43: 4300102
+    second: Core_Element (28)
+  - first:
+      43: 4300104
+    second: Core_Element (30)
+  - first:
+      43: 4300106
+    second: Core_Element (31)
+  - first:
+      43: 4300108
+    second: Core_Element (39)
+  - first:
+      43: 4300110
+    second: Core_Element (35)
+  - first:
+      43: 4300112
+    second: Core_Element (12)
+  - first:
+      43: 4300114
+    second: Core_Element (42)
+  - first:
+      43: 4300116
+    second: Mesh (11)
+  - first:
+      43: 4300118
+    second: Core_Element (41)
+  - first:
+      43: 4300120
+    second: Mesh (17)
+  - first:
+      43: 4300122
+    second: Core_Element (16)
+  - first:
+      43: 4300124
+    second: Core_Element (17)
+  - first:
+      43: 4300126
+    second: Core_Element (36)
+  - first:
+      43: 4300128
+    second: Core_Element (38)
+  - first:
+      43: 4300130
+    second: Core_Element (29)
+  - first:
+      43: 4300132
+    second: Core_Element (9)
+  - first:
+      43: 4300134
+    second: Core_Element (8)
+  - first:
+      43: 4300136
+    second: Core_Element (7)
+  - first:
+      43: 4300138
+    second: Core_Element (3)
+  - first:
+      43: 4300140
+    second: Core_Element (2)
+  - first:
+      43: 4300142
+    second: Core_Element (6)
+  - first:
+      43: 4300144
+    second: Core_Element (5)
+  - first:
+      43: 4300146
+    second: Core_Element (4)
+  - first:
+      43: 4300148
+    second: Mesh (5)
+  - first:
+      43: 4300150
+    second: Core_Element
+  - first:
+      43: 4300152
+    second: Mesh (6)
+  - first:
+      43: 4300154
+    second: Mesh (7)
+  - first:
+      43: 4300156
+    second: Mesh (8)
+  - first:
+      43: 4300158
+    second: Mesh (9)
+  - first:
+      43: 4300160
+    second: Mesh (2)
+  - first:
+      43: 4300162
+    second: Mesh (3)
+  - first:
+      43: 4300164
+    second: Support (16)
+  - first:
+      43: 4300166
+    second: Support (15)
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -667,7 +1981,7 @@ ModelImporter:
       name: Core
     second: {fileID: 2100000, guid: becba11b2a413c1429cbee04cce4c245, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -676,9 +1990,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -697,28 +2010,42 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 1
+    maximumMeshLod: 32
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -727,10 +2054,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -740,13 +2067,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

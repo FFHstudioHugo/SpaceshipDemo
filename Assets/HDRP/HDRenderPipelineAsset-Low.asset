@@ -379,7 +379,7 @@ MonoBehaviour:
       DLSSPerfQualitySetting: 3
       DLSSInjectionPoint: 0
       TAAUInjectionPoint: 0
-      STPInjectionPoint: 0
+      STPInjectionPoint: 2
       defaultInjectionPoint: 0
       DLSSUseOptimalSettings: 0
       DLSSSharpness: 0.5
@@ -395,7 +395,7 @@ MonoBehaviour:
       FSR2InjectionPoint: 0
       fsrOverrideSharpness: 0
       fsrSharpness: 0.92
-      maxPercentage: 85
+      maxPercentage: 100
       minPercentage: 50
       dynResType: 0
       upsampleFilter: 3
@@ -450,9 +450,9 @@ MonoBehaviour:
         m_Id: With3Levels
     lodBias:
       m_Values:
-      - 1
-      - 1
-      - 1
+      - 2
+      - 3
+      - 4
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:

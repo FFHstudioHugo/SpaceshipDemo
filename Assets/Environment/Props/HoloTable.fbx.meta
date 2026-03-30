@@ -1,28 +1,68 @@
 fileFormatVersion: 2
 guid: c5144feb0eae3cb43bf8bbd9b1430025
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: HoloTable
-    100004: HoloTable_Surface
-    400000: //RootNode
-    400002: HoloTable
-    400004: HoloTable_Surface
-    2100000: Default
-    2100002: HoloTable_Surface
-    2100004: HoloTable
-    2300000: //RootNode
-    2300002: HoloTable
-    2300004: HoloTable_Surface
-    3300000: //RootNode
-    3300002: HoloTable
-    3300004: HoloTable_Surface
-    4300000: HoloCeiling
-    4300002: Mesh
-    4300004: HoloTable_Surface
-    4300006: HoloTable
-    2186277476908879412: ImportLogs
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: HoloTable
+  - first:
+      1: 100004
+    second: HoloTable_Surface
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: HoloTable
+  - first:
+      4: 400004
+    second: HoloTable_Surface
+  - first:
+      21: 2100000
+    second: Default
+  - first:
+      21: 2100002
+    second: HoloTable_Surface
+  - first:
+      21: 2100004
+    second: HoloTable
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: HoloTable
+  - first:
+      23: 2300004
+    second: HoloTable_Surface
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: HoloTable
+  - first:
+      33: 3300004
+    second: HoloTable_Surface
+  - first:
+      43: 4300000
+    second: HoloCeiling
+  - first:
+      43: 4300002
+    second: Mesh
+  - first:
+      43: 4300004
+    second: HoloTable_Surface
+  - first:
+      43: 4300006
+    second: HoloTable
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -35,7 +75,7 @@ ModelImporter:
       name: HoloTable_Surface
     second: {fileID: 2100000, guid: ac433591c122a554b86f68fdb12c63c5, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -44,9 +84,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -65,28 +104,42 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 1
+    maximumMeshLod: 32
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -95,10 +148,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -108,13 +161,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

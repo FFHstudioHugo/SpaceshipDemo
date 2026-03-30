@@ -315,7 +315,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
+  m_UpdateMethod: 1
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -522,8 +522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52937dbad44b4ff4db4117f0056ae245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::HDDynamicResolution
-  DefaultTargetFrameRate: 80
-  EvaluationFrameCount: 120
+  DefaultTargetFrameRate: 60
+  EvaluationFrameCount: 60
   ScaleUpDuration: 8
   ScaleDownDuration: 4
   ScaleUpStepCount: 2
