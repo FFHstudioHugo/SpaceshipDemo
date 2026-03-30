@@ -290,7 +290,7 @@ MonoBehaviour:
     supportProbeVolumeScenarios: 0
     supportProbeVolumeScenarioBlending: 1
     probeVolumeBlendingMemoryBudget: 128
-    supportRayTracing: 0
+    supportRayTracing: 1
     supportVFXRayTracing: 0
     supportedRayTracingMode: 3
     lightLoopSettings:
@@ -379,7 +379,7 @@ MonoBehaviour:
       DLSSPerfQualitySetting: 3
       DLSSInjectionPoint: 0
       TAAUInjectionPoint: 0
-      STPInjectionPoint: 2
+      STPInjectionPoint: 0
       defaultInjectionPoint: 0
       DLSSUseOptimalSettings: 0
       DLSSSharpness: 0.5
@@ -397,7 +397,7 @@ MonoBehaviour:
       fsrSharpness: 0.92
       maxPercentage: 100
       minPercentage: 50
-      dynResType: 0
+      dynResType: 1
       upsampleFilter: 3
       forceResolution: 0
       forcedPercentage: 100
@@ -530,7 +530,7 @@ MonoBehaviour:
       mode: 1
       smallMeshScreenPercentage: 1
       enableOcclusionCullingInCameras: 1
-      useDepthPrepassForOccluders: 1
+      useDepthPrepassForOccluders: 0
     m_ObsoleteLightLayerName0: Light Layer default
     m_ObsoleteLightLayerName1: Light Layer 1
     m_ObsoleteLightLayerName2: Light Layer 2
