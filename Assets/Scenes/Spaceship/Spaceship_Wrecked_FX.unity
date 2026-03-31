@@ -341,11 +341,11 @@ MonoBehaviour:
   minRendererVolumeSize: 0.1
   objectLayerMask:
     serializedVersion: 2
-    m_Bits: 2049
-  lowestSubdivLevelOverride: 1
-  highestSubdivLevelOverride: 2
+    m_Bits: 2051
+  lowestSubdivLevelOverride: 0
+  highestSubdivLevelOverride: 1
   overridesSubdivLevels: 1
-  mightNeedRebaking: 0
+  mightNeedRebaking: 1
   cachedTransform:
     e00: 1
     e01: 0
@@ -703,7 +703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &467518023
 Transform:
   m_ObjectHideFlags: 0
@@ -1352,7 +1352,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -1469,6 +1471,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 467518023}
     m_Modifications:
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8727324851264915208, guid: ae53000b7c0f4a640be47de838f7f3db,
         type: 3}
       propertyPath: m_Name
@@ -1997,7 +2079,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -3079,6 +3163,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 467518023}
     m_Modifications:
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8727324851264915208, guid: ae53000b7c0f4a640be47de838f7f3db,
         type: 3}
       propertyPath: m_Name
@@ -4178,7 +4342,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -5477,7 +5643,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -5605,6 +5773,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 467518023}
     m_Modifications:
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8727324851264915208, guid: ae53000b7c0f4a640be47de838f7f3db,
         type: 3}
       propertyPath: m_Name
@@ -5834,6 +6082,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 467518023}
     m_Modifications:
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8727324851264915208, guid: ae53000b7c0f4a640be47de838f7f3db,
         type: 3}
       propertyPath: m_Name
@@ -6469,7 +6797,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -6986,7 +7316,9 @@ PrefabInstance:
       value: 31.830988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3997318541615184829, guid: 95448add53bea424488f76b5151e9a58, type: 3}
+    - {fileID: 7359059687177412625, guid: 95448add53bea424488f76b5151e9a58, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95448add53bea424488f76b5151e9a58, type: 3}
@@ -7052,6 +7384,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 467518023}
     m_Modifications:
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849243244164, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849245509700, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_GlobalIlluminationMeshLod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlags
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849804617293, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_RayTracingAccelStructBuildFlagsOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727324849806620813, guid: ae53000b7c0f4a640be47de838f7f3db,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8727324851264915208, guid: ae53000b7c0f4a640be47de838f7f3db,
         type: 3}
       propertyPath: m_Name

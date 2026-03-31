@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &52791567
 Transform:
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -368,8 +368,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 4.321516
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -413,11 +413,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 845.30084, y: 217409.08, z: 1.6029147e-19, w: 1.5584238e+19}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: NaN, w: -802.5821}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -439,7 +439,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &113478218
 Transform:
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -630,8 +630,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 8
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -675,11 +675,12 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 890148.06, y: 936498050, z: 12.832595, w: 1.4225182e-13}
+  m_BoundingSphereOverride: {x: 4.3064774e+21, y: 1.6632139e+22, z: 2.2535757e+20,
+    w: 4.544822e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 1.5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -812,7 +813,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &365651852
 Transform:
@@ -919,7 +920,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -1040,8 +1041,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 8
+  m_Intensity: 20.136396
+  m_Range: 4.0688224
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -1085,11 +1086,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 2.265061e+20, y: 0.002584544, z: 1.6495025e-33, w: 1.3563127e-19}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 7e-45, w: 5.6052e-40}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 1.2
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -1178,7 +1179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &630909112
 Transform:
@@ -1285,7 +1286,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -1406,8 +1407,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 6
+  m_Intensity: 20.136396
+  m_Range: 3.3889256
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -1451,11 +1452,12 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 8.18e-43, y: -5.558761e-22, z: 1.348761e+13, w: 8.634e-41}
+  m_BoundingSphereOverride: {x: 1.0898926e+27, y: 2.9970174e+32, z: 2.7487011e+20,
+    w: 1.85236e+28}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 2
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -1477,7 +1479,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &660493596
 Transform:
@@ -1547,7 +1549,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -1668,8 +1670,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 2.5
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -1713,12 +1715,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.6495664e-33, y: -3.3214114e-19, z: 1.2318598e+25,
-    w: 8.6415e-41}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 6e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -1740,7 +1741,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &707131588
 Transform:
@@ -1810,7 +1811,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -1931,8 +1932,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 3
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -1976,11 +1977,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 2.173772e-18, y: 2.748857e+26, z: 1.8175243e+31, w: 4.6304264e+27}
+  m_BoundingSphereOverride: {x: 8.14e-43, y: 5.7e-44, z: 0, w: 5.7e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -2082,7 +2083,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 2
     distanceFadeEnd: 11.93
-    textureOffset: {x: -0, y: -7.685623, z: -0}
+    textureOffset: {x: -0, y: -9.361235, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -2121,7 +2122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &982114758
 Transform:
@@ -2250,7 +2251,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -2371,8 +2372,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 7
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -2416,12 +2417,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 4.5156726e+27, y: 2.3656235e+20, z: 1.8314947e+25,
-    w: 1.2055001e+13}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: -7.385862e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 1
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -2442,7 +2442,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1082769389
 Transform:
@@ -2490,7 +2490,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 1
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -2611,8 +2611,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 30
+  m_Intensity: 20.136396
+  m_Range: 4.45608
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -2656,11 +2656,12 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.09002504e+27, y: 1.15250645e+27, z: 4.176e-41, w: 1.7e-44}
+  m_BoundingSphereOverride: {x: 4.3064774e+21, y: 1.6632139e+22, z: 2.2535757e+20,
+    w: 4.544822e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -2687,7 +2688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1264094486
 Transform:
@@ -2863,7 +2864,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -2984,8 +2985,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 3.35
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -3029,11 +3030,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 3141.9592, y: 3124.5835, z: 1.4316043e+10, w: 3.613095e+12}
+  m_BoundingSphereOverride: {x: 4.2325434e+21, y: 9.219932e-39, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.8
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -3091,7 +3092,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1443293273
 Transform:
@@ -3220,7 +3221,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -3341,8 +3342,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 4.5
+  m_Intensity: 20.136396
+  m_Range: 4.29517
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -3386,12 +3387,12 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 7.185979e+22, y: 1.8175883e+31, z: 1.1869786e+27,
-    w: 2.0191617e-19}
+  m_BoundingSphereOverride: {x: 4.3064774e+21, y: 1.6632139e+22, z: 2.2535757e+20,
+    w: 4.544822e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0.5
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -3445,7 +3446,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1710408616
 Transform:
@@ -3515,7 +3516,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -3636,8 +3637,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 5
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -3681,12 +3682,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 9.8439425e-12, y: 9.8439425e-12, z: 9.8439425e-12,
-    w: 1.3555894e-19}
+  m_BoundingSphereOverride: {x: 4.2325434e+21, y: 9.219932e-39, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 1
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -4095,24 +4095,24 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 0.31304184
-    'sh[ 1]': -0.025615674
-    'sh[ 2]': 0.17354834
-    'sh[ 3]': -0.11294164
-    'sh[ 4]': 0.011590057
-    'sh[ 5]': -0.030748572
-    'sh[ 6]': 0.02339265
-    'sh[ 7]': -0.027921183
-    'sh[ 8]': 0.026794786
-    'sh[ 9]': 0.04881646
-    'sh[10]': -0.0045778425
-    'sh[11]': 0.029956728
-    'sh[12]': -0.017313508
-    'sh[13]': 0.0017684352
-    'sh[14]': -0.0049406877
-    'sh[15]': 0.0034016497
-    'sh[16]': -0.0049930825
-    'sh[17]': 0.003724785
+    'sh[ 0]': 0.03744664
+    'sh[ 1]': -0.0043688286
+    'sh[ 2]': 0.018096648
+    'sh[ 3]': -0.018226411
+    'sh[ 4]': 0.002080905
+    'sh[ 5]': -0.0037110895
+    'sh[ 6]': 0.004072564
+    'sh[ 7]': -0.0039033766
+    'sh[ 8]': 0.0032029082
+    'sh[ 9]': 0.0058057425
+    'sh[10]': -0.0005574116
+    'sh[11]': 0.0028221624
+    'sh[12]': -0.0028927512
+    'sh[13]': 0.00026456738
+    'sh[14]': -0.0005007126
+    'sh[15]': 0.00057619903
+    'sh[16]': -0.0005904971
+    'sh[17]': 0.00045198904
     'sh[18]': 0
     'sh[19]': 0
     'sh[20]': 0
@@ -4234,7 +4234,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1953367415
 Transform:
@@ -4341,7 +4341,7 @@ MonoBehaviour:
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.28
+  m_VolumetricDimmer: 1.34
   m_FadeDistance: 30
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -4462,8 +4462,8 @@ Light:
   serializedVersion: 13
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 110.68501
-  m_Range: 8
+  m_Intensity: 20.136396
+  m_Range: 3.17
   m_SpotAngle: 30
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 10, y: 10}
@@ -4507,12 +4507,12 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 1525
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 6.7406024e+22, y: 1.7851233e+31, z: 3.9891784e+24,
-    w: 4.5435787e+30}
+  m_BoundingSphereOverride: {x: 2.7938744e+20, y: 1.1258673e+24, z: 6.7422043e+22,
+    w: 4.5447874e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 1.2
+  m_ShapeRadius: 1.74
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
