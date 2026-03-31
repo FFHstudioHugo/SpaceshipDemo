@@ -626,7 +626,7 @@ MonoBehaviour:
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_SpecularFade: 1
+        m_SpecularFade: 0
     - rid: 8760093480100560951
       type: {class: VolumetricCloudsRuntimeResources, ns: UnityEngine.Rendering.HighDefinition,
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
@@ -671,7 +671,7 @@ MonoBehaviour:
       type: {class: LensSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_LensAttenuationMode: 0
+        m_LensAttenuationMode: 1
     - rid: 8760093480100560954
       type: {class: HDRenderPipelineRuntimeMaterials, ns: UnityEngine.Rendering.HighDefinition,
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
@@ -790,7 +790,7 @@ MonoBehaviour:
         m_Camera:
           bitDatas:
             data1: 73324160532611021
-            data2: 13726973844994850840
+            data2: 13799031440106520600
           lodBias: 1
           lodBiasMode: 0
           lodBiasQualityLevel: 1
@@ -802,7 +802,7 @@ MonoBehaviour:
           sssCustomSampleBudget: 20
           sssCustomDownsampleSteps: 0
           msaaMode: 1
-          materialQuality: 1
+          materialQuality: 2
         m_CustomOrBakedReflection:
           bitDatas:
             data1: 135310754214733
@@ -821,13 +821,13 @@ MonoBehaviour:
           materialQuality: 0
         m_RealtimeReflection:
           bitDatas:
-            data1: 139923391782733
-            data2: 13690942871769710608
-          lodBias: 1
-          lodBiasMode: 0
+            data1: 140064588860613
+            data2: 13690942867761266688
+          lodBias: 0.5
+          lodBiasMode: 1
           lodBiasQualityLevel: 0
-          maximumLODLevel: 0
-          maximumLODLevelMode: 0
+          maximumLODLevel: 3
+          maximumLODLevelMode: 2
           maximumLODLevelQualityLevel: 0
           sssQualityMode: 0
           sssQualityLevel: 0
@@ -1176,8 +1176,8 @@ MonoBehaviour:
       type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_version: 0
-        m_EnableCompilationCaching: 1
-        m_EnableValidityChecks: 1
+        m_EnableCompilationCaching: 0
+        m_EnableValidityChecks: 0
     - rid: 8760093480100560979
       type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:

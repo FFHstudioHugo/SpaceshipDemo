@@ -201,9 +201,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -1676
-    y: -601
+    y: -602
     width: 3282
-    height: 2384
+    height: 2464
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -328,22 +328,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: SpawnRate
-    path: SpawnRate
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_Float
-    realType: Single
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 8000
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: SpawnVolumeSize
     path: SpawnVolumeSize
     tooltip: 
@@ -356,6 +340,22 @@ MonoBehaviour:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"x":4.0,"y":2.0,"z":4.0}'
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: SpawnRate
+    path: SpawnRate
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 8000
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -407,34 +407,18 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: ColorOverLife
-    path: ColorOverLife
+  - name: TurbulenceIntensity
+    path: TurbulenceIntensity
     tooltip: 
     space: -1
     spaceable: 0
-    sheetType: m_Gradient
-    realType: Gradient
+    sheetType: m_Float
+    realType: Single
     defaultValue:
       m_Type:
-        m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.4627451002597809,"time":0.09335469454526901},{"alpha":0.26274511218070986,"time":0.8542153239250183},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: SizeOverLife
-    path: SizeOverLife
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_AnimationCurve
-    realType: AnimationCurve
-    defaultValue:
-      m_Type:
-        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0009447931661270559,"inTangent":0.03449379652738571,"outTangent":0.03449379652738571,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.0715140551328659,"value":0.003411584533751011,"inTangent":0.002730746753513813,"outTangent":0.002730746753513813,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.8974259495735169,"value":0.0034399405121803285,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.9973825812339783,"value":0.0009615437593311071,"inTangent":-0.024794720113277437,"outTangent":-0.024794720113277437,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0.1
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -455,18 +439,34 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: TurbulenceIntensity
-    path: TurbulenceIntensity
+  - name: SizeOverLife
+    path: SizeOverLife
     tooltip: 
     space: -1
     spaceable: 0
-    sheetType: m_Float
-    realType: Single
+    sheetType: m_AnimationCurve
+    realType: AnimationCurve
     defaultValue:
       m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0009447931661270559,"inTangent":0.03449379652738571,"outTangent":0.03449379652738571,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.0715140551328659,"value":0.003411584533751011,"inTangent":0.002730746753513813,"outTangent":0.002730746753513813,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.8974259495735169,"value":0.0034399405121803285,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.9973825812339783,"value":0.0009615437593311071,"inTangent":-0.024794720113277437,"outTangent":-0.024794720113277437,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: ColorOverLife
+    path: ColorOverLife
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Gradient
+    realType: Gradient
+    defaultValue:
+      m_Type:
+        m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.4627451002597809,"time":0.09335469454526901},{"alpha":0.26274511218070986,"time":0.8542153239250183},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -2183,7 +2183,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614652}
   m_ExposedName: SpawnVolumeSize
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 0
   m_Category: Density Control
   m_Min:
     m_Type:
@@ -2375,7 +2375,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614660}
   m_ExposedName: SpawnRate
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Density Control
   m_Min:
     m_Type:
@@ -2456,7 +2456,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614665}
   m_ExposedName: AlphaRandomDistribution
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 2
   m_Category: Density Control
   m_Min:
     m_Type:
@@ -2537,7 +2537,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614673}
   m_ExposedName: TurbulenceIntensity
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 3
   m_Category: Behaviour
   m_Min:
     m_Type:
@@ -2618,7 +2618,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614675}
   m_ExposedName: TurbulenceDrag
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 4
   m_Category: Behaviour
   m_Min:
     m_Type:
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614685}
   m_ExposedName: SizeOverLife
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: Behaviour
   m_Min:
     m_Type:
@@ -2780,7 +2780,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614694}
   m_ExposedName: CameraFadeMinMaxDistances
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 6
   m_Category: Density Control
   m_Min:
     m_Type:
@@ -2932,7 +2932,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614701}
   m_ExposedName: ColorOverLife
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 7
   m_Category: Behaviour
   m_Min:
     m_Type:
@@ -3008,6 +3008,7 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661615190}
+  - {fileID: 8926484042661615242}
   - {fileID: 8926484042661614703}
   m_OutputSlots: []
   m_Label: 
@@ -3023,8 +3024,8 @@ MonoBehaviour:
   zWriteMode: 2
   zTestMode: 0
   useAlphaClipping: 0
-  generateMotionVector: 0
-  excludeFromTUAndAA: 0
+  generateMotionVector: 1
+  excludeFromTUAndAA: 1
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661614942}
@@ -3041,7 +3042,7 @@ MonoBehaviour:
   revertSorting: 0
   indirectDraw: 0
   computeCulling: 0
-  frustumCulling: 0
+  frustumCulling: 1
   castShadows: 0
   useExposureWeight: 0
   enableRayTracing: 0
@@ -9422,3 +9423,37 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614747}
+--- !u!114 &8926484042661615242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualEffectGraph.Editor::UnityEditor.VFX.VFXSlotFloat
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661615242}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661614702}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0.5
+    m_Space: -1
+  m_Property:
+    name: alphaThreshold
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []

@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 29410639013823753, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
@@ -144,6 +145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 99450473904663845, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 99450473904663845, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -171,6 +177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 207092075321445108, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 207092075321445108, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -249,6 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439739262043784350, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 439739262043784350, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -261,6 +277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 455981565648887477, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 455981565648887477, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -304,6 +325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 514277121639043912, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 514277121639043912, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -316,6 +342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 536384977077683008, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 536384977077683008, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -334,6 +365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 541154836581716042, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 541154836581716042, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -341,6 +377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 549998447017293743, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 549998447017293743, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -374,8 +415,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 663953272607571921, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 663953272607571921, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 668771480091429371, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 668771480091429371, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -424,8 +475,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 756396430007741162, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 756396430007741162, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 756396430007741164, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 756396430007741164, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -436,6 +497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 782153987429569308, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 782153987429569308, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -494,6 +560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 891728967070512121, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 891728967070512121, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -511,6 +582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 932943694676457613, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 932943694676457613, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -534,6 +610,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 962638131273568898, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 962638131273568898, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -549,8 +630,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982051528419189201, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 982051528419189201, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 982051528419189207, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 982051528419189207, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -579,8 +670,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 986250336327879170, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 986250336327879170, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 986250336327879172, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 986250336327879172, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -614,6 +715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1009877098000880779, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009877098000880779, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -626,6 +732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057954950935860169, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1057954950935860169, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -674,8 +785,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463066993, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463066993, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463066995, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463066995, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -684,8 +805,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463066997, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463066997, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463066999, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463066999, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -694,13 +825,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463067003, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463067003, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463067005, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463067005, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079750087463067007, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1079750087463067007, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -711,6 +857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1138791055432960411, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1138791055432960411, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -726,6 +877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217462234060261339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1217462234060261339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -749,6 +905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1270514677291830750, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270514677291830750, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -759,6 +920,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1317875475864704727, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317875475864704727, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -766,6 +932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326461451740761883, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1326461451740761883, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -801,6 +972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409057892109595818, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1409057892109595818, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -844,6 +1020,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1560626352767621522, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1560626352767621522, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -866,6 +1047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673761726186653190, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1673761726186653190, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -914,6 +1100,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1819283988984598660, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819283988984598660, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -921,6 +1112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949277362141998916, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1949277362141998916, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -969,8 +1165,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2022111380820836659, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022111380820836659, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022111380820836661, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2022111380820836661, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1014,6 +1220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2088116833849532132, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088116833849532132, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1031,6 +1242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148945447440338915, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2148945447440338915, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1119,8 +1335,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2422579850275484975, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443086853474096563, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2443086853474096563, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1164,6 +1385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2636852238313407842, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636852238313407842, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1186,6 +1412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686934434078447178, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2686934434078447178, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1229,6 +1460,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2845208156985253483, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845208156985253483, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.5
       objectReference: {fileID: 0}
@@ -1254,8 +1490,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995708381183715152, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995708381183715152, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995708381183715158, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2995708381183715158, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1276,6 +1522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3037546913032129873, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3037546913032129873, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1316,6 +1567,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102810402470222934, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3102810402470222934, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1384,6 +1640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3450486044690711345, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450486044690711345, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1399,6 +1660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3483464529712489769, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483464529712489769, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1411,6 +1677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498746269828959488, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3498746269828959488, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1446,6 +1717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747644450652117313, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3747644450652117313, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1486,6 +1762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819017259173697912, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3819017259173697912, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1650,7 +1931,7 @@ PrefabInstance:
     - target: {fileID: 3987134165789761493, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
       propertyPath: m_Name
-      value: Bridge_Room_Wrecked
+      value: Bridge_Room_Wrecked Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3987134165789761493, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1669,6 +1950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4067717538721939580, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067717538721939580, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1681,6 +1967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1699,6 +1990,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1711,16 +2007,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083979630193952938, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1741,6 +2027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097781147732608830, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4097781147732608830, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1786,6 +2077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4232817563625185356, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4232817563625185356, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1854,6 +2150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4325486477911064745, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325486477911064745, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1864,6 +2165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4348941004465514824, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348941004465514824, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1871,6 +2177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390283650220876545, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4390283650220876545, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -1929,6 +2240,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4605816942429432932, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4605816942429432932, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -1961,6 +2277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4685883070268579438, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4685883070268579438, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2034,6 +2355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4827479838336013822, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827479838336013822, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2041,6 +2367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835657388655324263, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4835657388655324263, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2059,6 +2390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4902946250423626584, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902946250423626584, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2071,6 +2407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910130931994776344, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4910130931994776344, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2239,13 +2580,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5085925866908318700, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
-      propertyPath: m_StitchLightmapSeams
-      value: 1
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5085925866908318700, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085925866908318700, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5085925866910311724, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2284,6 +2630,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5134555804794913927, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134555804794913927, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -2309,6 +2660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5244720126577459374, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244720126577459374, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2331,6 +2687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293044747477519138, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5293044747477519138, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2379,6 +2740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5466918720293485893, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466918720293485893, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2391,6 +2757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472262675523356230, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5472262675523356230, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2419,6 +2790,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5520020546217569478, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520020546217569478, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2429,6 +2805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5522871641965666734, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522871641965666734, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2436,6 +2817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549303762067927585, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5549303762067927585, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2519,6 +2905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5823759142210466619, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823759142210466619, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2594,8 +2985,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842561, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842561, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842563, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842563, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2604,8 +3005,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842567, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842567, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842569, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842569, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2614,13 +3025,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842571, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842571, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842573, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842573, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907434895699842575, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5907434895699842575, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2654,6 +3080,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994374490239686833, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994374490239686833, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2666,6 +3097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6020059357221052618, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6020059357221052618, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2694,8 +3130,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6071387501428562228, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071387501428562228, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738801, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738801, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2704,8 +3150,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738805, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738805, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738807, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738807, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2714,8 +3170,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738809, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738809, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738811, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738811, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2724,8 +3190,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738813, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738813, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075043618262738815, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6075043618262738815, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2774,6 +3250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6140050207193694648, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140050207193694648, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2819,8 +3300,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969953, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969953, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969955, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969955, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2829,8 +3320,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969959, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969959, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969961, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969961, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2839,13 +3340,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969963, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969963, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969965, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969965, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300910594678969967, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6300910594678969967, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2934,6 +3450,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6486388773336895551, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486388773336895551, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2954,6 +3475,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527407497789952655, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527407497789952655, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -2961,6 +3487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573742100412684244, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6573742100412684244, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2984,8 +3515,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6650631182723933201, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650631182723933201, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181760, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181760, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -2994,8 +3535,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181764, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181764, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181766, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181766, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3004,8 +3555,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181768, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181768, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181770, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181770, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3014,8 +3575,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181772, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181772, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658732548523181774, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6658732548523181774, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3069,6 +3640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6688166057734863669, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688166057734863669, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3114,6 +3690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6888374542646316195, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888374542646316195, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3126,6 +3707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891685073439492522, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6891685073439492522, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3159,6 +3745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7105577553303521921, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105577553303521921, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3181,6 +3772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199044417277661709, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7199044417277661709, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3234,6 +3830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7302164542131106687, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302164542131106687, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3249,6 +3850,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7344729110681635588, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344729110681635588, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -3256,6 +3862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7362010766221538786, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7362010766221538786, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3329,8 +3940,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131473, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131473, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131475, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131475, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3339,8 +3960,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131477, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131477, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131481, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131481, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3349,13 +3980,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131483, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131483, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131485, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131485, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7560233343997131487, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7560233343997131487, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3399,6 +4045,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7585644824129642262, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585644824129642262, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3414,8 +4065,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7600348765538032159, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600348765538032159, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641711883818133632, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7641711883818133632, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3436,6 +4097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680390202738964388, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7680390202738964388, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3466,6 +4132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7843506768957391754, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7843506768957391754, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3501,6 +4172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7919417753425986657, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7919417753425986657, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3594,6 +4270,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8284857437533814957, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284857437533814957, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3679,6 +4360,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8543297104229105339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543297104229105339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -3696,6 +4382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570771678814343830, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8570771678814343830, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3731,6 +4422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636332006044601819, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8636332006044601819, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3774,8 +4470,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734034803298097134, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734034803298097134, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8782591628043163111, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8782591628043163111, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3809,6 +4515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8811009616816635763, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8811009616816635763, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
@@ -3836,6 +4547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925824117044421012, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8925824117044421012, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3869,6 +4585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9019744718601508339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019744718601508339, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3891,6 +4612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085184085281592091, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085184085281592091, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3939,6 +4665,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195492268611663439, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195492268611663439, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.1
       objectReference: {fileID: 0}
@@ -3946,6 +4677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198989025965578391, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9198989025965578391, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
         type: 3}
@@ -3958,4 +4694,7 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2, type: 3}

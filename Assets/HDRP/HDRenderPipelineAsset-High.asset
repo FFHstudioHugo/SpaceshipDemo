@@ -218,7 +218,7 @@ MonoBehaviour:
   m_RenderPipelineSettings:
     supportShadowMask: 1
     supportSSR: 1
-    supportSSRTransparent: 0
+    supportSSRTransparent: 1
     supportSSAO: 1
     supportSSGI: 1
     supportSubsurfaceScattering: 0
@@ -251,14 +251,14 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 0
     supportDistortion: 1
-    supportTransparentBackface: 1
+    supportTransparentBackface: 0
     supportTransparentDepthPrepass: 1
     supportTransparentDepthPostpass: 1
     colorBufferFormat: 74
     depthBufferFormat: 0
     supportCustomPass: 1
     supportVariableRateShading: 1
-    customBufferFormat: 12
+    customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
       m_Values: 400000004000000040000000
@@ -269,7 +269,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
-    supportDecalLayers: 0
+    supportDecalLayers: 1
     supportSurfaceGradient: 0
     decalNormalBufferHP: 0
     supportHighQualityLineRendering: 0
@@ -281,20 +281,20 @@ MonoBehaviour:
     supportDitheringCrossFade: 0
     supportRuntimeAOVAPI: 0
     supportTerrainHole: 0
-    lightProbeSystem: 0
+    lightProbeSystem: 1
     oldLightProbeSystem: 0
     probeVolumeMemoryBudget: 1024
-    supportProbeVolumeGPUStreaming: 0
-    supportProbeVolumeDiskStreaming: 0
+    supportProbeVolumeGPUStreaming: 1
+    supportProbeVolumeDiskStreaming: 1
     probeVolumeSHBands: 1
-    supportProbeVolumeScenarios: 0
+    supportProbeVolumeScenarios: 1
     supportProbeVolumeScenarioBlending: 1
     probeVolumeBlendingMemoryBudget: 128
-    supportRayTracing: 0
-    supportVFXRayTracing: 0
-    supportedRayTracingMode: 3
+    supportRayTracing: 1
+    supportVFXRayTracing: 1
+    supportedRayTracingMode: 1
     lightLoopSettings:
-      cookieAtlasSize: 4096
+      cookieAtlasSize: 1024
       cookieFormat: 74
       cookieAtlasLastValidMip: 0
       cookieTexArraySize: 16
@@ -304,7 +304,7 @@ MonoBehaviour:
       maxEnvLightsOnScreen: 64
       reflectionCacheCompressed: 0
       reflectionProbeFormat: 74
-      reflectionProbeTexCacheSize: 8192
+      reflectionProbeTexCacheSize: 2048
       reflectionProbeTexLastValidCubeMip: 3
       reflectionProbeTexLastValidPlanarMip: 0
       reflectionProbeDecreaseResToFit: 1
@@ -321,30 +321,30 @@ MonoBehaviour:
       maxDecalsOnScreen: 512
       maxLightsPerClusterCell: 8
       maxLocalVolumetricFogSize: 32
-      maxLocalVolumetricFogOnScreen: 64
+      maxLocalVolumetricFogOnScreen: 22
     hdShadowInitParams:
-      maxShadowRequests: 128
+      maxShadowRequests: 32
       directionalShadowsDepthBits: 16
-      punctualShadowFilteringQuality: 1
+      punctualShadowFilteringQuality: 2
       directionalShadowFilteringQuality: 1
-      areaShadowFilteringQuality: 0
+      areaShadowFilteringQuality: 1
       punctualLightShadowAtlas:
-        shadowAtlasResolution: 4096
+        shadowAtlasResolution: 8192
         shadowAtlasDepthBits: 16
         useDynamicViewportRescale: 1
       areaLightShadowAtlas:
-        shadowAtlasResolution: 256
+        shadowAtlasResolution: 1024
         shadowAtlasDepthBits: 16
-        useDynamicViewportRescale: 0
+        useDynamicViewportRescale: 1
       cachedPunctualLightShadowAtlas: 2048
-      cachedAreaLightShadowAtlas: 1024
+      cachedAreaLightShadowAtlas: 512
       allowDirectionalMixedCachedShadows: 0
       shadowResolutionDirectional:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
           m_Id: With4Levels
       shadowResolutionPunctual:
-        m_Values: 80000000000200000004000000080000
+        m_Values: 40000000800000000002000000040000
         m_SchemaId:
           m_Id: With4Levels
       shadowResolutionArea:
@@ -352,7 +352,7 @@ MonoBehaviour:
         m_SchemaId:
           m_Id: With4Levels
       maxDirectionalShadowMapResolution: 2048
-      maxPunctualShadowMapResolution: 2048
+      maxPunctualShadowMapResolution: 4048
       maxAreaShadowMapResolution: 2048
       supportScreenSpaceShadows: 1
       maxScreenSpaceShadowSlots: 4
@@ -365,10 +365,10 @@ MonoBehaviour:
         m_Values: 000100000002000000040000
         m_SchemaId:
           m_Id: With3Levels
-      perChannelMask: 0
+      perChannelMask: 1
     postProcessSettings:
       m_LutSize: 32
-      lutFormat: 48
+      lutFormat: 74
       bufferFormat: 74
     dynamicResolutionSettings:
       enabled: 1
@@ -395,16 +395,16 @@ MonoBehaviour:
       FSR2InjectionPoint: 0
       fsrOverrideSharpness: 0
       fsrSharpness: 0.92
-      maxPercentage: 90
-      minPercentage: 50
+      maxPercentage: 100
+      minPercentage: 60
       dynResType: 1
       upsampleFilter: 3
       forceResolution: 0
       forcedPercentage: 100
-      lowResTransparencyMinimumThreshold: 30
-      rayTracingHalfResThreshold: 60
-      lowResSSGIMinimumThreshold: 0
-      lowResVolumetricCloudsMinimumThreshold: 70
+      lowResTransparencyMinimumThreshold: 50
+      rayTracingHalfResThreshold: 66
+      lowResSSGIMinimumThreshold: 5
+      lowResVolumetricCloudsMinimumThreshold: 82
       enableDLSS: 1
     lowresTransparentSettings:
       enabled: 1
@@ -450,14 +450,14 @@ MonoBehaviour:
         m_Id: With3Levels
     lodBias:
       m_Values:
+      - 0.8
       - 1
-      - 1
-      - 1
+      - 1.25
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:
       AOStepCount: 040000000600000010000000
-      AOFullRes: 000001
+      AOFullRes: 000101
       AOMaximumRadiusPixels: 200000002800000050000000
       AOBilateralUpsample: 000101
       AODirectionCount: 010000000200000004000000
@@ -528,7 +528,7 @@ MonoBehaviour:
       - 0.5
     gpuResidentDrawerSettings:
       mode: 1
-      smallMeshScreenPercentage: 0
+      smallMeshScreenPercentage: 1
       enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 0
     m_ObsoleteLightLayerName0: Light Layer default
@@ -550,8 +550,8 @@ MonoBehaviour:
     m_ObsoleteSupportRuntimeDebugDisplay: 0
   allowShaderVariantStripping: 1
   enableSRPBatcher: 1
-  availableMaterialQualityLevels: -1
-  m_DefaultMaterialQualityLevel: 4
+  availableMaterialQualityLevels: 3
+  m_DefaultMaterialQualityLevel: 2
   diffusionProfileSettings: {fileID: 0}
   m_VolumeProfile: {fileID: 0}
   virtualTexturingSettings:

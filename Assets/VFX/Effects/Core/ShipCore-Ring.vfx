@@ -311,7 +311,7 @@ MonoBehaviour:
     x: -3356
     y: -5303
     width: 5572
-    height: 5081
+    height: 5129
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -508,7 +508,7 @@ VisualEffectResource:
   m_Infos:
     m_RendererSettings:
       motionVectorGenerationMode: 1
-      shadowCastingMode: 0
+      shadowCastingMode: 1
     m_CullingFlags: 3
     m_UpdateMode: 0
     m_PreWarmDeltaTime: 0.05
@@ -2805,6 +2805,7 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661623863}
+  - {fileID: 8926484042661624106}
   - {fileID: 8926484042661619883}
   m_OutputSlots: []
   m_Label: 
@@ -2837,15 +2838,15 @@ MonoBehaviour:
   sortMode: 0
   revertSorting: 0
   indirectDraw: 1
-  computeCulling: 0
-  frustumCulling: 0
-  castShadows: 0
-  useExposureWeight: 0
-  enableRayTracing: 0
-  decimationFactor: 1
+  computeCulling: 1
+  frustumCulling: 1
+  castShadows: 1
+  useExposureWeight: 1
+  enableRayTracing: 1
+  decimationFactor: 5
   raytracedScaleMode: 0
   needsOwnSort: 0
-  needsOwnAabbBuffer: 0
+  needsOwnAabbBuffer: 1
   shaderGraph: {fileID: 0}
   materialSettings:
     m_PropertyNames: []
@@ -3210,7 +3211,7 @@ MonoBehaviour:
   - {fileID: 8926484042661620431}
   m_ExposedName: Power
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: Sequencing
   m_Min:
     m_Type:
@@ -6725,15 +6726,15 @@ MonoBehaviour:
   sortMode: 0
   revertSorting: 0
   indirectDraw: 0
-  computeCulling: 0
-  frustumCulling: 0
+  computeCulling: 1
+  frustumCulling: 1
   castShadows: 0
   useExposureWeight: 0
-  enableRayTracing: 0
-  decimationFactor: 1
+  enableRayTracing: 1
+  decimationFactor: 6
   raytracedScaleMode: 0
   needsOwnSort: 0
-  needsOwnAabbBuffer: 0
+  needsOwnAabbBuffer: 1
   shaderGraph: {fileID: 0}
   materialSettings:
     m_PropertyNames: []
@@ -7675,7 +7676,7 @@ MonoBehaviour:
   - {fileID: 8926484042661622855}
   m_ExposedName: Radius
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -26525,6 +26526,40 @@ MonoBehaviour:
     name: seed
     m_serializedType:
       m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
+--- !u!114 &8926484042661624106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualEffectGraph.Editor::UnityEditor.VFX.VFXSlotFloat
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661624106}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661619863}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: -1
+  m_Property:
+    name: exposureWeight
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
   m_LinkedSlots: []

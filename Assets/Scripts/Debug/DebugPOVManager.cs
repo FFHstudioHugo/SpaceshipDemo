@@ -1,10 +1,10 @@
 using GameplayIngredients;
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 
 public class DebugPOVManager : Manager
 {
-    CinemachineVirtualCamera m_VirtualCamera;
+    CinemachineCamera m_VirtualCamera;
 
     public void SetCamera(Transform transform)
     {
@@ -26,7 +26,7 @@ public class DebugPOVManager : Manager
     void CreateCamera()
     {
         var go = new GameObject("DebugPOV");
-        m_VirtualCamera = go.AddComponent<CinemachineVirtualCamera>();
+        m_VirtualCamera = go.AddComponent<CinemachineCamera>();
         m_VirtualCamera.Priority = int.MaxValue;
         m_VirtualCamera.transform.parent = transform;
     }
