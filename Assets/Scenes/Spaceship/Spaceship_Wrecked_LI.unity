@@ -9,7 +9,7 @@ OcclusionCullingSettings:
     smallestHole: 0.25
     backfaceThreshold: 100
   m_SceneGUID: 19ce0a0759fba4659913c5432674aa98
-  m_OcclusionCullingData: {fileID: 36300000, guid: 342761975e913a84ca81576bb9e7a877,
+  m_OcclusionCullingData: {fileID: 36300000, guid: 6e8ca8248e576f749936ab3019be6ef6,
     type: 2}
 --- !u!104 &2
 RenderSettings:
@@ -1455,7 +1455,7 @@ Light:
   m_BoundingSphereOverride: {x: 1.0898926e+27, y: 2.9970174e+32, z: 2.7487011e+20,
     w: 1.85236e+28}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
   m_ShapeRadius: 1.74
   m_ShadowAngle: 0
@@ -2083,7 +2083,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 2
     distanceFadeEnd: 11.93
-    textureOffset: {x: -0, y: -9.361235, z: -0}
+    textureOffset: {x: -0, y: -5.0066257, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -2659,7 +2659,7 @@ Light:
   m_BoundingSphereOverride: {x: 4.3064774e+21, y: 1.6632139e+22, z: 2.2535757e+20,
     w: 4.544822e+30}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
   m_ShapeRadius: 1.74
   m_ShadowAngle: 0

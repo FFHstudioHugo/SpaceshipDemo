@@ -10173,7 +10173,7 @@ Transform:
   m_GameObject: {fileID: 1744378724}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710677, y: 0.000001065433, z: 0.7071068, w: 0.0000031888485}
-  m_LocalPosition: {x: 21.145, y: 2.33, z: 2.959}
+  m_LocalPosition: {x: 18.54, y: 2.33, z: 2.959}
   m_LocalScale: {x: 2.4060035, y: 1.4117638, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10266,7 +10266,7 @@ MonoBehaviour:
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
-  m_LightDimmer: 0.38
+  m_LightDimmer: 1.4
   m_VolumetricDimmer: 0.35
   m_FadeDistance: 50
   m_VolumetricFadeDistance: 50
@@ -10387,7 +10387,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 13
   m_Type: 2
-  m_Color: {r: 1, g: 0.96957505, b: 0.8235294, a: 1}
+  m_Color: {r: 1, g: 0.72459656, b: 0.6367924, a: 1}
   m_Intensity: 65.55162
   m_Range: 10
   m_SpotAngle: 30

@@ -311,7 +311,7 @@ MonoBehaviour:
     x: -3356
     y: -5303
     width: 5572
-    height: 5129
+    height: 5149
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6694,6 +6694,7 @@ MonoBehaviour:
   - {fileID: 8926484042661622579}
   - {fileID: 8926484042661623982}
   - {fileID: 8926484042661623738}
+  - {fileID: 8926484042661624107}
   - {fileID: 8926484042661622086}
   m_OutputSlots: []
   m_Label: 
@@ -6729,9 +6730,9 @@ MonoBehaviour:
   computeCulling: 1
   frustumCulling: 1
   castShadows: 0
-  useExposureWeight: 0
+  useExposureWeight: 1
   enableRayTracing: 1
-  decimationFactor: 6
+  decimationFactor: 8
   raytracedScaleMode: 0
   needsOwnSort: 0
   needsOwnAabbBuffer: 1
@@ -7414,7 +7415,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":11.30853271484375,"g":0.4392235279083252,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":15.874107360839844,"g":0.6520971655845642,"b":0.0,"a":1.0},"time":0.13939116895198823},{"color":{"r":21.11212158203125,"g":3.7428362369537355,"b":0.1464630663394928,"a":1.0},"time":0.3478294014930725},{"color":{"r":39.73362731933594,"g":15.089540481567383,"b":1.1386984586715699,"a":1.0},"time":0.6023041009902954},{"color":{"r":69.9703369140625,"g":51.38996887207031,"b":5.083725929260254,"a":1.0},"time":0.8682841062545776},{"color":{"r":164.8744354248047,"g":102.6657485961914,"b":29.97380256652832,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.03836118057370186},{"alpha":0.9898402690887451,"time":0.24425116181373597},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":11.30853271484375,"g":0.4392235279083252,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":15.874107360839844,"g":0.6520971655845642,"b":0.0,"a":1.0},"time":0.13939116895198823},{"color":{"r":21.11212158203125,"g":3.7428362369537355,"b":0.1464630663394928,"a":1.0},"time":0.3478294014930725},{"color":{"r":39.73362731933594,"g":15.089540481567383,"b":1.1386984586715699,"a":1.0},"time":0.6023041009902954},{"color":{"r":69.9703369140625,"g":51.38996887207031,"b":5.083725929260254,"a":1.0},"time":0.8682841062545776},{"color":{"r":164.8744354248047,"g":102.6657485961914,"b":29.97380256652832,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.03836118057370186},{"alpha":0.3960784375667572,"time":0.24705882370471955},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: 
@@ -26555,6 +26556,40 @@ MonoBehaviour:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
       m_SerializableObject: 1
+    m_Space: -1
+  m_Property:
+    name: exposureWeight
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
+--- !u!114 &8926484042661624107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualEffectGraph.Editor::UnityEditor.VFX.VFXSlotFloat
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661624107}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661622055}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0.711
     m_Space: -1
   m_Property:
     name: exposureWeight
