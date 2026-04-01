@@ -2163,7 +2163,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580549524}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
   m_Name: 
@@ -2172,24 +2172,29 @@ MonoBehaviour:
   fadeRadius: 0
   priority: 0
   customPasses:
-  - rid: 321491294548131892
+  - rid: 9178891323828862976
   injectionPoint: 0
   m_TargetCamera: {fileID: 0}
   useTargetCamera: 0
   references:
     version: 2
     RefIds:
-    - rid: 321491294548131892
-      type: {class: ClearCameraColorBeforeRendering, ns: , asm: Assembly-CSharp}
+    - rid: 9178891323828862976
+      type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Name: Custom Pass
         enabled: 1
         targetColorBuffer: 0
-        targetDepthBuffer: 0
-        clearFlags: 0
+        targetDepthBuffer: 2
+        clearFlags: -1
         passFoldout: 0
         m_Version: 0
-        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        fullscreenPassMaterial: {fileID: 2100000, guid: 9e0706b294cb45545a090df45e008e5d,
+          type: 2}
+        materialPassIndex: 0
+        materialPassName: Custom Pass 0
+        fetchColorBuffer: 0
 --- !u!1 &1659945109
 GameObject:
   m_ObjectHideFlags: 0
