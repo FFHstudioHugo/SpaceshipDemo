@@ -328,9 +328,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.31929708
+    y: 0.055555552
     width: 1
-    height: 0.36140585
+    height: 0.8888889
   near clip plane: 0.1
   far clip plane: 80
   field of view: 45.9
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52937dbad44b4ff4db4117f0056ae245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::HDDynamicResolution
-  DefaultTargetFrameRate: 53.5
+  DefaultTargetFrameRate: 53
   EvaluationFrameCount: 32
   ScaleUpDuration: 8
   ScaleDownDuration: 4
@@ -611,8 +611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b8748861f596146937fb0bd5fc931c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WickaCinematicAspect
-  targetWidth: 720
-  targetHeight: 360
+  targetWidth: 1440
+  targetHeight: 720
   applyInEditMode: 1
   updateContinuously: 1
 --- !u!1 &3429080319467456250

@@ -213,7 +213,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2024f0f196b761d479deeabbee1e8aea, type: 2}
   - {fileID: 11400000, guid: 8b9abb3582322444397ea6b158f677c7, type: 2}
   - {fileID: 11400000, guid: 1a76490a7961dc045bf0d5ba315f8abe, type: 2}
-  m_PrefilterUseLegacyLightmaps: 0
+  m_PrefilterUseLegacyLightmaps: 1
   m_PrefilterUseLightmapBicubicSampling: 0
   m_RenderPipelineSettings:
     supportShadowMask: 1

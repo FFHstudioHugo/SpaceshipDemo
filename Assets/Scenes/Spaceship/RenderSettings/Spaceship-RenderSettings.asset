@@ -321,10 +321,10 @@ MonoBehaviour:
   active: 1
   normalBias:
     m_OverrideState: 1
-    m_Value: 0.81
+    m_Value: 0.54
   viewBias:
     m_OverrideState: 1
-    m_Value: 0.51
+    m_Value: 0.37
   scaleBiasWithMinProbeDistance:
     m_OverrideState: 1
     m_Value: 0
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_Value: 0
   intensityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.74
+    m_Value: 1
   skyOcclusionIntensityMultiplier:
     m_OverrideState: 1
     m_Value: 0

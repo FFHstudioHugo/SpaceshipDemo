@@ -14,38 +14,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   quality:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 3
   intensity:
     m_OverrideState: 1
     m_Value: 1
   maximumVelocity:
-    m_OverrideState: 0
-    m_Value: 200
+    m_OverrideState: 1
+    m_Value: 766
   minimumVelocity:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 10.5
   cameraMotionBlur:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   specialCameraClampMode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 3
   cameraVelocityClamp:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.05
   cameraTranslationVelocityClamp:
-    m_OverrideState: 0
-    m_Value: 0.05
+    m_OverrideState: 1
+    m_Value: 0.041
   cameraRotationVelocityClamp:
-    m_OverrideState: 0
-    m_Value: 0.03
+    m_OverrideState: 1
+    m_Value: 0.085
   depthComparisonExtent:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   m_SampleCount:
-    m_OverrideState: 0
-    m_Value: 8
+    m_OverrideState: 1
+    m_Value: 12
 --- !u!114 &-7244632538122973115
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -174,10 +174,10 @@ MonoBehaviour:
   active: 1
   rayBias:
     m_OverrideState: 1
-    m_Value: 0.084
+    m_Value: 0.005
   distantRayBias:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.009
   extendShadowCulling:
     m_OverrideState: 1
     m_Value: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
     m_Value: 1000
   minSolidAngle:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 1.05
 --- !u!114 &-3236341654096225928
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -356,7 +356,7 @@ MonoBehaviour:
       m_Bits: 4294967295
   depthBufferThickness:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.06
   fullResolutionSS:
     m_OverrideState: 1
     m_Value: 1
@@ -368,13 +368,13 @@ MonoBehaviour:
     m_Value: 1
   m_HalfResolutionDenoiserSS:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_DenoiserRadiusSS:
     m_OverrideState: 1
     m_Value: 0.5
   m_SecondDenoiserPassSS:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   lastBounceFallbackHierarchy:
     m_OverrideState: 1
     m_Value: 3
@@ -574,7 +574,7 @@ MonoBehaviour:
   active: 1
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 1
   indirectDiffuseLightingLayers:
     m_OverrideState: 1
     m_Value: -1
@@ -605,7 +605,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.23
+    m_Value: 0.051
   response:
     m_OverrideState: 0
     m_Value: 0.8
@@ -639,13 +639,13 @@ MonoBehaviour:
     m_Value: -2.5784752
   compensation:
     m_OverrideState: 1
-    m_Value: -1
+    m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: -5
+    m_Value: -4.781022
   limitMax:
     m_OverrideState: 1
-    m_Value: -1
+    m_Value: 0
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_Value: 2
   useFullACES:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   toeStrength:
     m_OverrideState: 0
     m_Value: 0
