@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 0
   m_QualitySettings:
   - serializedVersion: 5
     name: Low
@@ -21,7 +21,7 @@ QualitySettings:
     skinWeights: 2
     globalTextureMipmapLimit: 1
     textureMipmapLimitSettings: []
-    anisotropicTextures: 2
+    anisotropicTextures: 1
     antiAliasing: 2
     softParticles: 1
     softVegetation: 1
@@ -39,7 +39,7 @@ QualitySettings:
     enableLODCrossFade: 1
     streamingMipmapsActive: 1
     streamingMipmapsAddAllCameras: 1
-    streamingMipmapsMemoryBudget: 512
+    streamingMipmapsMemoryBudget: 256
     streamingMipmapsRenderersPerFrame: 512
     streamingMipmapsMaxLevelReduction: 2
     streamingMipmapsMaxFileIORequests: 1024
@@ -93,9 +93,9 @@ QualitySettings:
     enableLODCrossFade: 1
     streamingMipmapsActive: 1
     streamingMipmapsAddAllCameras: 1
-    streamingMipmapsMemoryBudget: 256
+    streamingMipmapsMemoryBudget: 512
     streamingMipmapsRenderersPerFrame: 256
-    streamingMipmapsMaxLevelReduction: 1
+    streamingMipmapsMaxLevelReduction: 3
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 512
     asyncUploadTimeSlice: 2
@@ -129,14 +129,14 @@ QualitySettings:
     skinWeights: 255
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
-    anisotropicTextures: 2
+    anisotropicTextures: 1
     antiAliasing: 2
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
-    adaptiveVsync: 0
+    adaptiveVsync: 1
     vSyncCount: 2
     realtimeGICPUUsage: 50
     adaptiveVsyncExtraA: 0
@@ -147,10 +147,10 @@ QualitySettings:
     enableLODCrossFade: 1
     streamingMipmapsActive: 1
     streamingMipmapsAddAllCameras: 1
-    streamingMipmapsMemoryBudget: 512
+    streamingMipmapsMemoryBudget: 1024
     streamingMipmapsRenderersPerFrame: 512
-    streamingMipmapsMaxLevelReduction: 2
-    streamingMipmapsMaxFileIORequests: 1024
+    streamingMipmapsMaxLevelReduction: 4
+    streamingMipmapsMaxFileIORequests: 2048
     particleRaycastBudget: 1024
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 24

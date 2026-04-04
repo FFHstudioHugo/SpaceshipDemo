@@ -4718,6 +4718,11 @@ MonoBehaviour:
   setFirstLoadedSceneActive: 0
   logOperations: 0
   sceneLists:
+  - listName: MainMenu
+    scenes:
+    - {fileID: 102900000, guid: 909568ff4e249004eab2992125066c6a, type: 3}
+    scenePaths:
+    - Assets/Scenes/MainMenu/MainMenu.unity
   - listName: SpaceShip
     scenes:
     - {fileID: 102900000, guid: deb3f35bf59b78c4db19df084e864906, type: 3}

@@ -284,10 +284,10 @@ MonoBehaviour:
     lightProbeSystem: 1
     oldLightProbeSystem: 0
     probeVolumeMemoryBudget: 1024
-    supportProbeVolumeGPUStreaming: 1
+    supportProbeVolumeGPUStreaming: 0
     supportProbeVolumeDiskStreaming: 1
     probeVolumeSHBands: 1
-    supportProbeVolumeScenarios: 1
+    supportProbeVolumeScenarios: 0
     supportProbeVolumeScenarioBlending: 1
     probeVolumeBlendingMemoryBudget: 128
     supportRayTracing: 1
@@ -528,7 +528,7 @@ MonoBehaviour:
       - 0.5
     gpuResidentDrawerSettings:
       mode: 1
-      smallMeshScreenPercentage: 0.75
+      smallMeshScreenPercentage: 2
       enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 1
     m_ObsoleteLightLayerName0: Light Layer default

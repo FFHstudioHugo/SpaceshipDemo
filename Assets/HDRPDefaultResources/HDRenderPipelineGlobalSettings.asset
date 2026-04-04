@@ -790,7 +790,7 @@ MonoBehaviour:
         m_Camera:
           bitDatas:
             data1: 73324160532611023
-            data2: 13799031440106520600
+            data2: 13799031439972302872
           lodBias: 1
           lodBiasMode: 0
           lodBiasQualityLevel: 1
@@ -802,11 +802,11 @@ MonoBehaviour:
           sssCustomSampleBudget: 20
           sssCustomDownsampleSteps: 0
           msaaMode: 1
-          materialQuality: 2
+          materialQuality: 0
         m_CustomOrBakedReflection:
           bitDatas:
             data1: 135310754214733
-            data2: 4467570834646499352
+            data2: 4539628428684427288
           lodBias: 1
           lodBiasMode: 0
           lodBiasQualityLevel: 0
@@ -821,13 +821,13 @@ MonoBehaviour:
           materialQuality: 0
         m_RealtimeReflection:
           bitDatas:
-            data1: 4573295355202575
-            data2: 13690942867761266688
+            data1: 4573295355137031
+            data2: 13763000461799194624
           lodBias: 0.5
-          lodBiasMode: 1
+          lodBiasMode: 0
           lodBiasQualityLevel: 0
-          maximumLODLevel: 3
-          maximumLODLevelMode: 2
+          maximumLODLevel: 1
+          maximumLODLevelMode: 0
           maximumLODLevelQualityLevel: 0
           sssQualityMode: 0
           sssQualityLevel: 0
@@ -1176,8 +1176,8 @@ MonoBehaviour:
       type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_version: 0
-        m_EnableCompilationCaching: 1
-        m_EnableValidityChecks: 1
+        m_EnableCompilationCaching: 0
+        m_EnableValidityChecks: 0
     - rid: 8760093480100560979
       type: {class: IncludeAdditionalRPAssets, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
