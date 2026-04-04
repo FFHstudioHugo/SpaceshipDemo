@@ -328,9 +328,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555552
+    y: 0.39817792
     width: 1
-    height: 0.8888889
+    height: 0.20364416
   near clip plane: 0.1
   far clip plane: 80
   field of view: 45.9
@@ -507,8 +507,8 @@ MonoBehaviour:
   allowDeepLearningSuperSampling: 1
   deepLearningSuperSamplingUseCustomQualitySettings: 1
   deepLearningSuperSamplingQuality: 4
-  deepLearningSuperSamplingUseCustomAttributes: 0
-  deepLearningSuperSamplingUseOptimalSettings: 1
+  deepLearningSuperSamplingUseCustomAttributes: 1
+  deepLearningSuperSamplingUseOptimalSettings: 0
   deepLearningSuperSamplingSharpening: 0.5
   allowFidelityFX2SuperResolution: 0
   fidelityFX2SuperResolutionUseCustomQualitySettings: 0

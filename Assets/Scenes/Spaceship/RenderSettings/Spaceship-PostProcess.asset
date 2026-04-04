@@ -229,7 +229,7 @@ MonoBehaviour:
     m_Value: 4
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.45
+    m_Value: 0.822
   m_SmoothnessFadeStart:
     m_OverrideState: 1
     m_Value: 1
@@ -241,22 +241,22 @@ MonoBehaviour:
     m_Value: 1
   depthBufferThickness:
     m_OverrideState: 1
-    m_Value: 0.057
+    m_Value: 0.016
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.482
+    m_Value: 0.938
   accumulationFactor:
     m_OverrideState: 1
-    m_Value: 0.155
+    m_Value: 0.085
   biasFactor:
     m_OverrideState: 1
-    m_Value: 0.161
+    m_Value: 0.45
   speedRejectionParam:
     m_OverrideState: 1
-    m_Value: 0.96
+    m_Value: 0.255
   speedRejectionScalerFactor:
     m_OverrideState: 1
-    m_Value: 0.874
+    m_Value: 0.45
   speedSmoothReject:
     m_OverrideState: 1
     m_Value: 1
@@ -271,7 +271,7 @@ MonoBehaviour:
     m_Value: 1
   m_RayMaxIterations:
     m_OverrideState: 1
-    m_Value: 128
+    m_Value: 64
   rayMiss:
     m_OverrideState: 1
     m_Value: 3

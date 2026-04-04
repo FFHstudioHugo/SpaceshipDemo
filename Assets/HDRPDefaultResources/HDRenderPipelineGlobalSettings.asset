@@ -204,30 +204,7 @@ MonoBehaviour:
       - rid: 8760093480100560984
       - rid: 8760093480100560985
     m_RuntimeSettings:
-      m_List:
-      - rid: 8760093480100560948
-      - rid: 8760093480100560950
-      - rid: 8760093480100560953
-      - rid: 8760093480100560954
-      - rid: 8760093480100560955
-      - rid: 8760093480100560956
-      - rid: 8760093480100560958
-      - rid: 8760093480100560960
-      - rid: 8760093480100560961
-      - rid: 8760093480100560962
-      - rid: 8760093480100560964
-      - rid: 8760093480100560965
-      - rid: 8760093480100560969
-      - rid: 8760093480100560970
-      - rid: 8760093480100560972
-      - rid: 8760093480100560973
-      - rid: 8760093480100560975
-      - rid: 8760093480100560977
-      - rid: 8760093480100560978
-      - rid: 8760093480100560981
-      - rid: 8760093480100560982
-      - rid: 8760093480100560983
-      - rid: 8760093480100560984
+      m_List: []
   renderingLayerNames:
   - 
   - 
@@ -649,7 +626,7 @@ MonoBehaviour:
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_SpecularFade: 0
+        m_SpecularFade: 1
     - rid: 8760093480100560951
       type: {class: VolumetricCloudsRuntimeResources, ns: UnityEngine.Rendering.HighDefinition,
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
@@ -694,7 +671,7 @@ MonoBehaviour:
       type: {class: LensSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_LensAttenuationMode: 1
+        m_LensAttenuationMode: 0
     - rid: 8760093480100560954
       type: {class: HDRenderPipelineRuntimeMaterials, ns: UnityEngine.Rendering.HighDefinition,
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
@@ -912,7 +889,7 @@ MonoBehaviour:
         asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_ColorGradingSpace: 0
+        m_ColorGradingSpace: 1
     - rid: 8760093480100560965
       type: {class: WaterSystemGlobalSettings, ns: UnityEngine.Rendering.HighDefinition,
         asm: Unity.RenderPipelines.HighDefinition.Runtime}

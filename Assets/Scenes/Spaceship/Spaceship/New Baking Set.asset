@@ -59,7 +59,7 @@ MonoBehaviour:
       enableDilation: 1
       dilationDistance: 1.25
       dilationValidityThreshold: 0.25
-      dilationIterations: 1
+      dilationIterations: 2
       squaredDistWeighting: 0
     virtualOffsetSettings:
       useVirtualOffset: 1

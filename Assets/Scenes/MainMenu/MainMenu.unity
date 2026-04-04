@@ -651,33 +651,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251809261}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.CustomPassVolume
   m_IsGlobal: 1
   fadeRadius: 0
-  priority: 0
+  priority: 500
   customPasses:
-  - rid: 321491294548131893
+  - rid: 9178891393332412624
   injectionPoint: 0
   m_TargetCamera: {fileID: 0}
   useTargetCamera: 0
   references:
     version: 2
     RefIds:
-    - rid: 321491294548131893
-      type: {class: ClearCameraColorBeforeRendering, ns: , asm: Assembly-CSharp}
+    - rid: 9178891393332412624
+      type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Name: Custom Pass
         enabled: 1
         targetColorBuffer: 0
         targetDepthBuffer: 0
-        clearFlags: 0
+        clearFlags: -1
         passFoldout: 0
         m_Version: 0
-        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        fullscreenPassMaterial: {fileID: 2100000, guid: 9e0706b294cb45545a090df45e008e5d,
+          type: 2}
+        materialPassIndex: 0
+        materialPassName: Custom Pass 0
+        fetchColorBuffer: 0
 --- !u!1 &254752818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,102 +4667,85 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1001 &1423611506
-PrefabInstance:
+--- !u!1 &1413509570
+GameObject:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413509571}
+  - component: {fileID: 1413509572}
+  m_Layer: 0
+  m_Name: Scene Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1413509571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413509570}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.95623505
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.65073997
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.7089024
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9636311
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.10466419
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.24510966
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.019542478
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853612, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853613, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: field of view
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853613, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: far clip plane
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853613, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_NormalizedViewPortRect.y
-      value: 0.055555552
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853613, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_NormalizedViewPortRect.height
-      value: 0.8888889
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027554877427853619, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      propertyPath: m_Name
-      value: VirtualCameraManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3027554877427853619, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2135706215}
-    - targetCorrespondingSourceObject: {fileID: 3027554877427853619, guid: 3c96a72ce3dacc141a568f1995ee1105,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2135706214}
-  m_SourcePrefab: {fileID: 100100000, guid: 3c96a72ce3dacc141a568f1995ee1105, type: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413509572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413509570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289d5725b9856d2438d608fcd9079c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FFH.Utilities.SceneManagement.Runtime::FFH.Utilities.SceneManagement.SceneLoader
+  loadAtStart: 0
+  loadAtStartListIndex: 0
+  loadAtStartSceneIndex: 0
+  cancelRunningOperationOnNewRequest: 0
+  setFirstLoadedSceneActive: 0
+  logOperations: 0
+  sceneLists:
+  - listName: SpaceShip
+    scenes:
+    - {fileID: 102900000, guid: deb3f35bf59b78c4db19df084e864906, type: 3}
+    - {fileID: 102900000, guid: cbdc6ff9001b9a248ad408237a2d3726, type: 3}
+    - {fileID: 102900000, guid: 64414efab3d6d7043b39784ee15da120, type: 3}
+    - {fileID: 102900000, guid: 78a4be73247578646aa741ac6e3fe7af, type: 3}
+    - {fileID: 102900000, guid: 33e38a54ff48449e78764c946dbac380, type: 3}
+    - {fileID: 102900000, guid: da03cb48051707d47846750ad1261e45, type: 3}
+    scenePaths:
+    - Assets/Scenes/Spaceship/Spaceship.unity
+    - Assets/Scenes/Spaceship/Spaceship_FX.unity
+    - Assets/Scenes/Spaceship/Spaceship_GR.unity
+    - Assets/Scenes/Spaceship/Spaceship_LD.unity
+    - Assets/Scenes/Spaceship/Spaceship_LI.unity
+    - Assets/Scenes/Spaceship/Spaceship_SD.unity
+  - listName: SpaceShip Wrecked
+    scenes:
+    - {fileID: 102900000, guid: 8b3494e242f32794593fec9351f032fb, type: 3}
+    - {fileID: 102900000, guid: 43ed24e9164f2884ab52547d83896410, type: 3}
+    - {fileID: 102900000, guid: 155eef1d22159c24daee0e6e71f44453, type: 3}
+    - {fileID: 102900000, guid: 19ce0a0759fba4659913c5432674aa98, type: 3}
+    - {fileID: 102900000, guid: 56192440f81d9924b9b27891aa7ec154, type: 3}
+    scenePaths:
+    - Assets/Scenes/Spaceship/Spaceship_Wrecked_FX.unity
+    - Assets/Scenes/Spaceship/Spaceship_Wrecked_GR.unity
+    - Assets/Scenes/Spaceship/Spaceship_Wrecked_LD.unity
+    - Assets/Scenes/Spaceship/Spaceship_Wrecked_LI.unity
+    - Assets/Scenes/Spaceship/Spaceship_Wrecked_SD.unity
 --- !u!1 &1438836645
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,43 +6284,6 @@ MonoBehaviour:
   Name: Set Main
   StateMachine: {fileID: 2123600178}
   m_State: Main
---- !u!1 &2135706204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3027554877427853619, guid: 3c96a72ce3dacc141a568f1995ee1105,
-    type: 3}
-  m_PrefabInstance: {fileID: 1423611506}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2135706214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135706204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19e53b416fec4b341a147adedee96946, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GameplayIngredients::GameplayIngredients.Events.OnEnableDisableEvent
-  OnEnableEvent:
-  - {fileID: 2135706215}
-  OnDisableEvent: []
---- !u!114 &2135706215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135706204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e0d20f2fb594be42acf7e05001c2932, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GameplayIngredients::GameplayIngredients.Actions.DestroyObjectAction
-  Name: Destroy objects
-  ObjectsToDestroy:
-  - {fileID: 2135706204}
-  DestroyInstigator: 0
 --- !u!1001 &3033398032603511609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6668,4 +6619,4 @@ SceneRoots:
   - {fileID: 504528824}
   - {fileID: 890678657}
   - {fileID: 13366745}
-  - {fileID: 1423611506}
+  - {fileID: 1413509571}
